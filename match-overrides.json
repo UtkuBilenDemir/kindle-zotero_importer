@@ -1,0 +1,11 @@
+{
+  "format": "kindle-zotero-importer.match-overrides.v1",
+  "overrides": [
+    {
+      "clipping_title": "WilliamS.Burroughs-Nakedlunch-GrovePress(2001) (Utku)",
+      "resolution": {
+        "citation_key": "burroughs1992"
+      }
+    }
+  ]
+}
