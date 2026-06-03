@@ -31,3 +31,4 @@ project: "[[kindle-zotero-importer]]"
 - Refined generated override review ordering: unresolved entries sort first by clipping_count descending; already-entered overrides are retained at the end as an audit trail. Regenerated matches.json with current overrides and regenerated match-overrides.generated.json; current match statuses are 37 ignored, 24 matched, 6 ambiguous.
 
 - Updated override editing workflow so ignored/unmatched entries include a blank citation_key field by default. Blank citation_key values are ignored by the loader, so entries remain ignored until edited; generated audit entries now preserve the blank citation_key for ignored items.
+- Saved recovery/workflow changes in Git commit b713faa (`Improve override review and PDF positioning`). Commit includes PDF qpdf fallback, editable override review workflow, current match-overrides.json, regenerated mismatch review, README updates, and python -m entry point.
