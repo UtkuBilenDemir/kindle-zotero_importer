@@ -41,30 +41,9 @@ Candidates:
 ## Unmatched Kindle Titles
 
 Status: `unmatched-title`
-Clippings: 636
-Unique titles: 42
+Clippings: 534
+Unique titles: 40
 Action: Add one confirmed mapping to match-overrides.json using citation_key, zotero_key, or zotero_item_id.
-
-### WilliamS.Burroughs-Nakedlunch-GrovePress(2001) (Utku)
-
-```yaml
-clipping_title: "WilliamS.Burroughs-Nakedlunch-GrovePress(2001) (Utku)"
-status: unmatched-title
-clipping_count: 69
-kinds: {highlight: 69}
-citation_key: ""
-zotero_item_id: null
-zotero_key: "burroughs1992"
-zotero_title: ""
-attachment_count: null
-expected_attachment_type: "pdf-or-epub"
-match_score: null
-match_reason: ""
-```
-
-- Example: highlight page `8` loc `56-57`: The addict in the street who must have junk to live is the one irreplaceable factor in the junk equation. When there are no more addicts to buy junk there will be no junk trafic. A
-- Example: highlight page `15` loc `141-142`: Paregoric Babes of the World Unite. We have nothing to lose but Our Pushers. And THEY are NOT NECESSARY.
-- Example: highlight page `19` loc `185-185`: "Well," I said, tapping my arm, "duty calls. As one judge said to another: 'Be just and if you can't be just, be arbitrary.' "
 
 ### The Satanic Verses_ A Novel (Salman Rushdie)
 
@@ -73,7 +52,7 @@ clipping_title: "The Satanic Verses_ A Novel (Salman Rushdie)"
 status: unmatched-title
 clipping_count: 54
 kinds: {highlight: 54}
-citation_key: ""
+citation_key: "rushdie2011"
 zotero_item_id: null
 zotero_key: ""
 zotero_title: ""
@@ -178,35 +157,6 @@ match_reason: ""
 - Example: highlight page `None` loc `6909-6909`: Egwene zeigte nicht ihre sonst so einwandfreien Manieren;
 - Example: highlight page `None` loc `7257-7257`: gebaut in Zeitalter von Legenden, man sagt. Da sein eine
 - Example: highlight page `None` loc `7257-7258`: gebaut in Zeitalter von Legenden, man sagt. Da sein eine Wand mit Fries, der zeigt Tiere, die kein lebender
-
-### Mackenzie_2018_Resistance and the politics of truth Foucault, Deleuze, Badiou (Iain MacKenzie)
-
-```yaml
-clipping_title: "Mackenzie_2018_Resistance and the politics of truth Foucault, Deleuze, Badiou (Iain MacKenzie)"
-status: unmatched-title
-clipping_count: 33
-kinds: {highlight: 33}
-citation_key: "mackenzie2018"
-zotero_item_id: 46710
-zotero_key: "QA46VR8D"
-zotero_title: "Resistance and the politics of truth: Foucault, Deleuze, Badiou"
-attachment_count: 2
-expected_attachment_type: "pdf-or-epub"
-match_score: 0.92
-match_reason: "title-contained-in-clipping-title"
-override_entry:
-  clipping_title: "Mackenzie_2018_Resistance and the politics of truth Foucault, Deleuze, Badiou (Iain MacKenzie)"
-  resolution:
-    citation_key: "mackenzie2018"
-```
-
-Candidates:
-- citation_key: `mackenzie2018`, zotero_item_id: `46710`, zotero_key: `QA46VR8D`, attachments: `2`, score: `0.92`, title: Resistance and the politics of truth: Foucault, Deleuze, Badiou
-- citation_key: `deleuze1988`, zotero_item_id: `118`, zotero_key: `D4DFMW8L`, attachments: `1`, score: `0.92`, title: Foucault
-
-- Example: highlight page `189` loc `2324-2325`: All of which amounts to a defence of the idea of critique and its importance in establishing practices of resistance: without an immanent critique of one’s situation there is no ho
-- Example: highlight page `189` loc `2329-2330`: The previous chapters have addressed the first of these problems in establishing a general idea of immanent critique as a creative practice;
-- Example: highlight page `191` loc `2349-2349`: (because the learner is the thinker of pure difference),
 
 ### Marcus Aurelius (Emperor of Rome), Martin Hammond, Diskin Clay - Meditations (2006, Penguin Books) - libgen.li
 
@@ -715,7 +665,49 @@ match_reason: ""
 - Example: highlight page `None` loc `532-533`: Then, I said, no science or art considers or enjoins the interest of the stronger or superior, but only the interest of the subject and weaker?
 - Example: highlight page `None` loc `550-552`: First of all, in private contracts: wherever the unjust is the partner of the just you will find that, when the partnership is dissolved, the unjust man has always more and the jus
 
-_Showing first 30 of 42 unique titles._
+### The Way of Kings (Sanderson, Brandon)
+
+```yaml
+clipping_title: "The Way of Kings (Sanderson, Brandon)"
+status: unmatched-title
+clipping_count: 3
+kinds: {highlight: 3}
+citation_key: ""
+zotero_item_id: null
+zotero_key: ""
+zotero_title: ""
+attachment_count: null
+expected_attachment_type: "epub-preferred"
+match_score: null
+match_reason: ""
+```
+
+- Example: highlight page `None` loc `369-370`: For if you were going to assassinate a man, he was entitled to see you coming.
+- Example: highlight page `None` loc `366-370`: Today, that included wearing white. Loose white trousers tied at the waist with a rope, and over them a filmy shirt with long sleeves, open at the front. White clothing for a kille
+- Example: highlight page `None` loc `407-408`: As Truthless, there was only one life he was forbidden to take. And that was his own.
+
+### Your P2K Articles (2024-12-17) (P2K)
+
+```yaml
+clipping_title: "Your P2K Articles (2024-12-17) (P2K)"
+status: unmatched-title
+clipping_count: 3
+kinds: {highlight: 3}
+citation_key: ""
+zotero_item_id: null
+zotero_key: ""
+zotero_title: ""
+attachment_count: null
+expected_attachment_type: "pdf-or-epub"
+match_score: null
+match_reason: ""
+```
+
+- Example: highlight page `11` loc `85-85`: Captagon,
+- Example: highlight page `12` loc `90-92`: particular importance here is Hezbollah, whose elite units played a key part in fighting the jihadi opposition in Syria. But most of these have been transferred to Lebanon to fight
+- Example: highlight page `15` loc `114-117`: Nobody knows if Iran and the regime would have been weakened without the recent Israeli attacks in Syria, which have allowed us to return and free the lands and the country,’ a man
+
+_Showing first 30 of 40 unique titles._
 
 ## Matched Attachment But Missing File Path
 
@@ -800,8 +792,8 @@ Candidates:
 ## Attachment Found But Text Position Failed
 
 Status: `epub-text-not-found`
-Clippings: 181
-Unique titles: 11
+Clippings: 183
+Unique titles: 12
 Action: Needs looser EPUB text matching or manual review.
 
 ### Dostoyevsky and Taluy_2020_Karamazov kardeşler
@@ -986,8 +978,8 @@ zotero_key: "MR7YD8FW"
 zotero_title: "Deleuze and Guattari's A thousand plateaus: a reader's guide"
 attachment_count: 1
 expected_attachment_type: "epub"
-match_score: 0.92
-match_reason: "title-contained-in-clipping-title"
+match_score: 1.0
+match_reason: "citationKey"
 attachment_choices:
   - attachment_item_id: 45062
     attachment_key: "DVSTKU2W"
@@ -1003,7 +995,7 @@ override_entry:
 ```
 
 Candidates:
-- citation_key: `holland2013`, zotero_item_id: `45058`, zotero_key: `MR7YD8FW`, attachments: `1`, score: `0.92`, title: Deleuze and Guattari's A thousand plateaus: a reader's guide
+- citation_key: `holland2013`, zotero_item_id: `45058`, zotero_key: `MR7YD8FW`, attachments: `1`, score: `1.0`, title: Deleuze and Guattari's A thousand plateaus: a reader's guide
 
 - Example: highlight page `41` loc `520-522`: debt; whereas Marx considered production to be primary, Deleuze & Guattari draw here on Nietzsche more than Marx, and instead consider debt to be the primary organizing element in 
 - Example: highlight page `41` loc `513-516`: The economic instance, in other words, is a Problematic virtual structure (how to produce means of life to assure survival) to which various societies (or a given society at variou
@@ -1058,8 +1050,8 @@ zotero_key: "95BBKLYJ"
 zotero_title: "Three novels"
 attachment_count: 1
 expected_attachment_type: "epub"
-match_score: 0.92
-match_reason: "title-contained-in-clipping-title"
+match_score: 1.0
+match_reason: "citationKey"
 attachment_choices:
   - attachment_item_id: 42882
     attachment_key: "SK7YDIFX"
@@ -1075,7 +1067,7 @@ override_entry:
 ```
 
 Candidates:
-- citation_key: `beckett2009`, zotero_item_id: `42879`, zotero_key: `95BBKLYJ`, attachments: `1`, score: `0.92`, title: Three novels
+- citation_key: `beckett2009`, zotero_item_id: `42879`, zotero_key: `95BBKLYJ`, attachments: `1`, score: `1.0`, title: Three novels
 
 - Example: highlight page `518` loc `6641-6647`: But when it falters? And when it stops? But it falters every instant, it stops every instant! Yes, but when it stops for a good few moments, a good few moments (what are a good few
 - Example: highlight page `517` loc `6633-6641`: <You have reached the clipping limit for this item>
@@ -1125,6 +1117,47 @@ Candidates:
 - Example: highlight page `551` loc `7237-7248`: The choice is between one of two poles, the paranoiac counterescape that motivates all the conformist, reactionary, and fascisizing investments, and the schizophrenic escape conver
 - Example: highlight page `552` loc `7256-7258`: the neurotic needs a global object in relation to which the partial objects can be determined as a lack, and inversely,38 But on a more general level, the statistical transformatio
 
+### Mackenzie_2018_Resistance and the politics of truth Foucault, Deleuze, Badiou (Iain MacKenzie)
+
+```yaml
+clipping_title: "Mackenzie_2018_Resistance and the politics of truth Foucault, Deleuze, Badiou (Iain MacKenzie)"
+status: epub-text-not-found
+clipping_count: 2
+kinds: {highlight: 2}
+citation_key: "mackenzie2018"
+zotero_item_id: 46710
+zotero_key: "QA46VR8D"
+zotero_title: "Resistance and the politics of truth: Foucault, Deleuze, Badiou"
+attachment_count: 2
+expected_attachment_type: "pdf-or-epub"
+match_score: 1.0
+match_reason: "citationKey"
+attachment_choices:
+  - attachment_item_id: 46712
+    attachment_key: "QPJNPMKP"
+    attachment_title: "Mackenzie_2018_Resistance and the politics of truth Foucault, Deleuze, Badiou.epub"
+    content_type: "application/epub+zip"
+    path: "/Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Mackenzie_2018_Resistance and the politics of truth Foucault, Deleuze, Badiou.epub"
+  - attachment_item_id: 46714
+    attachment_key: "KE7XRV35"
+    attachment_title: "Mackenzie_2018_Resistance and the politics of truth Foucault, Deleuze, Badiou.pdf"
+    content_type: "application/pdf"
+    path: "/Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Mackenzie_2018_Resistance and the politics of truth Foucault, Deleuze, Badiou.pdf"
+override_entry:
+  clipping_title: "Mackenzie_2018_Resistance and the politics of truth Foucault, Deleuze, Badiou (Iain MacKenzie)"
+  resolution:
+    citation_key: "mackenzie2018"
+    attachment_key: "PASTE_SELECTED_ATTACHMENT_KEY"
+    attachment_item_id: null
+```
+
+Candidates:
+- citation_key: `mackenzie2018`, zotero_item_id: `46710`, zotero_key: `QA46VR8D`, attachments: `2`, score: `1.0`, title: Resistance and the politics of truth: Foucault, Deleuze, Badiou
+- citation_key: `deleuze1988`, zotero_item_id: `118`, zotero_key: `D4DFMW8L`, attachments: `1`, score: `0.92`, title: Foucault
+
+- Example: highlight page `198` loc `2449-2455`: Rouvroy puts it succinctly when she says that algorithmically produced knowledge is no longer produced by humans about the world, rather it is ‘produced from the digital world’ (20
+- Example: highlight page `203` loc `2501-2505`: In Chaosmosis, Guattari turns to art and aesthetics to understand how we might challenge the emergent forms of control that shape contemporary liberal capitalist democracies. He no
+
 ### Buchner_2004_Lenz (Georg Buchner)
 
 ```yaml
@@ -1138,8 +1171,8 @@ zotero_key: "AA8YM2SD"
 zotero_title: "Lenz"
 attachment_count: 1
 expected_attachment_type: "epub"
-match_score: 0.92
-match_reason: "title-contained-in-clipping-title"
+match_score: 1.0
+match_reason: "citationKey"
 attachment_choices:
   - attachment_item_id: 42872
     attachment_key: "8ZMLY422"
@@ -1155,7 +1188,7 @@ override_entry:
 ```
 
 Candidates:
-- citation_key: `buchner2004`, zotero_item_id: `42869`, zotero_key: `AA8YM2SD`, attachments: `1`, score: `0.92`, title: Lenz
+- citation_key: `buchner2004`, zotero_item_id: `42869`, zotero_key: `AA8YM2SD`, attachments: `1`, score: `1.0`, title: Lenz
 
 - Example: highlight page `14` loc `140-143`: Laß in mir die heil’gen Schmerzen,            Tiefe Bronnen ganz aufbrechen;            Leiden sei all’mein Gewinst,            Leiden sei mein Gottesdienst.
 
@@ -1235,8 +1268,8 @@ Candidates:
 ## PDF Text Not Found
 
 Status: `pdf-text-not-found`
-Clippings: 25
-Unique titles: 4
+Clippings: 26
+Unique titles: 5
 Action: Needs looser PDF text matching/OCR/page-offset handling.
 
 ### (Undergraduate texts in mathematics) Sheldon Axler - Linear Algebra Done Right-Springer (1997)
@@ -1288,8 +1321,8 @@ zotero_key: "MBGL8DAK"
 zotero_title: "Deleuze and Guattari's Anti-Oedipus: a reader's guide"
 attachment_count: 1
 expected_attachment_type: "pdf"
-match_score: 0.92
-match_reason: "title-contained-in-clipping-title"
+match_score: 1.0
+match_reason: "citationKey"
 attachment_choices:
   - attachment_item_id: 40764
     attachment_key: "VXSNTSKV"
@@ -1305,7 +1338,7 @@ override_entry:
 ```
 
 Candidates:
-- citation_key: `buchanan2008`, zotero_item_id: `380`, zotero_key: `MBGL8DAK`, attachments: `1`, score: `0.92`, title: Deleuze and Guattari's Anti-Oedipus: a reader's guide
+- citation_key: `buchanan2008`, zotero_item_id: `380`, zotero_key: `MBGL8DAK`, attachments: `1`, score: `1.0`, title: Deleuze and Guattari's Anti-Oedipus: a reader's guide
 
 - Example: highlight page `67-67` loc `None`: The first paralogism of psychoanalysis, the paralogism of extrapolation, is this: psychoanalysis converts a detachable partial object - e.g., the penis - into a detached complete o
 - Example: highlight page `101-101` loc `None`: The voice is the voice of the alliance, the marked body is the body of affiliation, and the appreciative eye enables the declension of the two. Primitive inscription should not be 
@@ -1381,11 +1414,45 @@ Candidates:
 
 - Example: highlight page `132-132` loc `None`: Adamın suratı kızarmış, gözleri öfkeden yine büyümüş­ tü. O an hâkim olan sessizliği Kibar bozdu: “Dimitrakopulo ve Gel Ey Esmerim.” “Ne?” “Senin o altınından kalan son kuruşla Daz
 
+### WilliamS.Burroughs-Nakedlunch-GrovePress(2001) (Utku)
+
+```yaml
+clipping_title: "WilliamS.Burroughs-Nakedlunch-GrovePress(2001) (Utku)"
+status: pdf-text-not-found
+clipping_count: 1
+kinds: {highlight: 1}
+citation_key: "burroughs1992"
+zotero_item_id: 39116
+zotero_key: "SGPP6ATY"
+zotero_title: "Naked lunch"
+attachment_count: 1
+expected_attachment_type: "pdf"
+match_score: 1.0
+match_reason: "override-citation-key:burroughs1992"
+attachment_choices:
+  - attachment_item_id: 39118
+    attachment_key: "TN5ANVDD"
+    attachment_title: "Burroughs_1992_.pdf"
+    content_type: "application/pdf"
+    path: "/Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Burroughs_1992_.pdf"
+override_entry:
+  clipping_title: "WilliamS.Burroughs-Nakedlunch-GrovePress(2001) (Utku)"
+  resolution:
+    citation_key: "burroughs1992"
+    attachment_key: "PASTE_SELECTED_ATTACHMENT_KEY"
+    attachment_item_id: null
+```
+
+Candidates:
+- citation_key: `burroughs1992`, zotero_item_id: `39116`, zotero_key: `SGPP6ATY`, attachments: `1`, score: `1.0`, title: Naked lunch
+
+- Example: highlight page `163` loc `1840-1848`: A. J. is agitating for the destruction of Israel: "With all this feeling against the West a chap has a spot of bother scoring for the young Arab amenities.... The situation is litt
+
 ## PDF Rectangles Not Found
 
 Status: `pdf-rects-not-found`
-Clippings: 147
-Unique titles: 3
+Clippings: 157
+Unique titles: 4
 Action: Needs improved PDF rectangle recovery after text/page match.
 
 ### Buchanan_2008_Deleuze and Guattari's Anti-Oedipus a reader's guide
@@ -1401,8 +1468,8 @@ zotero_key: "MBGL8DAK"
 zotero_title: "Deleuze and Guattari's Anti-Oedipus: a reader's guide"
 attachment_count: 1
 expected_attachment_type: "pdf"
-match_score: 0.92
-match_reason: "title-contained-in-clipping-title"
+match_score: 1.0
+match_reason: "citationKey"
 attachment_choices:
   - attachment_item_id: 40764
     attachment_key: "VXSNTSKV"
@@ -1418,7 +1485,7 @@ override_entry:
 ```
 
 Candidates:
-- citation_key: `buchanan2008`, zotero_item_id: `380`, zotero_key: `MBGL8DAK`, attachments: `1`, score: `0.92`, title: Deleuze and Guattari's Anti-Oedipus: a reader's guide
+- citation_key: `buchanan2008`, zotero_item_id: `380`, zotero_key: `MBGL8DAK`, attachments: `1`, score: `1.0`, title: Deleuze and Guattari's Anti-Oedipus: a reader's guide
 
 - Example: highlight page `8-8` loc `None`: They were particularly opposed to the Left Bank Maoism that blossomed that spring like the proverbial hundredflowers.They rejected the idea that May '68 constituted a first or prel
 - Example: highlight page `8-8` loc `None`: -Oedipus is a May '68 book providing it is understood that Deleuze and Guattari were not 'soixante-huitards' or May 68ers and that their view of those events was quite different fr
@@ -1460,6 +1527,42 @@ Candidates:
 - Example: highlight page `28-28` loc `None`: Mürettebatın en genci olan Hamamcı idi bu, hem bâkir hem de habaza olduğu için, kovanlarında kolayca kaysınlar diye baş taraf torpidolarını gresle ona yağlatırlardı
 - Example: highlight page `76-76` loc `None`: Bunu duyunca Kumandan o anda yerinden hışımla fırlayarak erbaş yatak yerinin fosfor bronzu kaportasını açıp içeri atladığında, geçen nice seneden sonra yine ilk kez, korkunun ta ke
 
+### WilliamS.Burroughs-Nakedlunch-GrovePress(2001) (Utku)
+
+```yaml
+clipping_title: "WilliamS.Burroughs-Nakedlunch-GrovePress(2001) (Utku)"
+status: pdf-rects-not-found
+clipping_count: 10
+kinds: {highlight: 10}
+citation_key: "burroughs1992"
+zotero_item_id: 39116
+zotero_key: "SGPP6ATY"
+zotero_title: "Naked lunch"
+attachment_count: 1
+expected_attachment_type: "pdf"
+match_score: 1.0
+match_reason: "override-citation-key:burroughs1992"
+attachment_choices:
+  - attachment_item_id: 39118
+    attachment_key: "TN5ANVDD"
+    attachment_title: "Burroughs_1992_.pdf"
+    content_type: "application/pdf"
+    path: "/Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Burroughs_1992_.pdf"
+override_entry:
+  clipping_title: "WilliamS.Burroughs-Nakedlunch-GrovePress(2001) (Utku)"
+  resolution:
+    citation_key: "burroughs1992"
+    attachment_key: "PASTE_SELECTED_ATTACHMENT_KEY"
+    attachment_item_id: null
+```
+
+Candidates:
+- citation_key: `burroughs1992`, zotero_item_id: `39116`, zotero_key: `SGPP6ATY`, attachments: `1`, score: `1.0`, title: Naked lunch
+
+- Example: highlight page `8` loc `56-57`: The addict in the street who must have junk to live is the one irreplaceable factor in the junk equation. When there are no more addicts to buy junk there will be no junk trafic. A
+- Example: highlight page `49` loc `539-541`: A group of P.R.'s -Partially Reconditioned -- have surrounded some homosexual tourists with horrible knowing smiles showing the Nordic skull beneath in double exposure. "What do yo
+- Example: highlight page `67` loc `760-762`: The Guard is a sharp dresser, since he has nothing to do and saves all his pay to buy fine clothes and changes three times a day in front of an enormous magnifying mirror. He has a
+
 ### Bartleby, the Scrivener (Melville, Herman)
 
 ```yaml
@@ -1493,3 +1596,10 @@ Candidates:
 - citation_key: `melville2006`, zotero_item_id: `41142`, zotero_key: `YF4FV42C`, attachments: `1`, score: `0.98`, title: Bartleby the scrivener
 
 - Example: highlight page `None` loc `250-251`: sudden spasmodic passions with him. For it was exceeding difficult
+
+## PDF Position Errors
+
+Status: `pdf-position-error:`
+Clippings: 0
+Unique titles: 0
+Action: Inspect the PDF extraction command error, file validity, encryption, or permissions.
