@@ -5,8 +5,8 @@ Persistent rule: confirmed title matches go in `match-overrides.json`, not `matc
 ## Matched Zotero Item But No Attachment
 
 Status: `matched-title-no-attachment`
-Clippings: 103
-Unique titles: 1
+Clippings: 104
+Unique titles: 2
 Action: Attach/link a PDF or EPUB to the listed Zotero item, then re-index Zotero.
 
 ### Why AI Undermines Democracy and What To Do About It (Coeckelbergh, Mark)
@@ -38,230 +38,38 @@ Candidates:
 - Example: highlight page `29` loc `678-680`: “organized as processes of communication where humans inform themselves, debate, and take collectively binding decisions” (2023: 12). This requires a public sphere: a social sphere
 - Example: highlight page `30` loc `686-689`: Dewey and Habermas stressed not only participation but also communication. In Democracy and Education (1944), Dewey sees communication as a process in which participants learn to s
 
-## Unmatched Kindle Titles
-
-Status: `unmatched-title`
-Clippings: 534
-Unique titles: 40
-Action: Add one confirmed mapping to match-overrides.json using citation_key, zotero_key, or zotero_item_id.
-
-### The Satanic Verses_ A Novel (Salman Rushdie)
+### daily-left-news-2026-08-23 (Kindle Left News)
 
 ```yaml
-clipping_title: "The Satanic Verses_ A Novel (Salman Rushdie)"
-status: unmatched-title
-clipping_count: 54
-kinds: {highlight: 54}
-citation_key: "rushdie2011"
-zotero_item_id: null
-zotero_key: ""
-zotero_title: ""
-attachment_count: null
-expected_attachment_type: "epub-preferred"
-match_score: null
-match_reason: ""
-```
-
-- Example: highlight page `None` loc `51-53`: What characteristics which? Slow down; you think Creation happens in a rush? So then, neither does revelation . . . take a look at the pair of them. Notice anything unusual? Just t
-- Example: highlight page `None` loc `88-89`: Now that I am dead I have forgotten how to forgive. I curse you, my Gibreel, may your life be hell. Hell, because that's where you sent me, damn you, where you came from, devil, wh
-- Example: highlight page `None` loc `103-106`: what had taken him over was the will to live, unadulterated, irresistible, pure, and the first thing it did was to inform him that it wanted nothing to do with his pathetic persona
-
-### 1984 (AmazonClassics Edition) (Orwell, George)
-
-```yaml
-clipping_title: "1984 (AmazonClassics Edition) (Orwell, George)"
-status: unmatched-title
-clipping_count: 46
-kinds: {highlight: 46}
-citation_key: "foucault1997"
-zotero_item_id: 137
-zotero_key: "GHG9JTKY"
-zotero_title: "The essential works of Foucault, 1954-1984"
-attachment_count: 1
+clipping_title: "daily-left-news-2026-08-23 (Kindle Left News)"
+status: matched-title-no-attachment
+clipping_count: 1
+kinds: {highlight: 1}
+citation_key: "News2020"
+zotero_item_id: 1713
+zotero_key: "5TYCKTFZ"
+zotero_title: "News"
+attachment_count: 0
 expected_attachment_type: "pdf-or-epub"
-match_score: 0.88
-match_reason: "clipping-title-contained-in-title"
+match_score: 0.92
+match_reason: "title-contained-in-clipping-title"
 override_entry:
-  clipping_title: "1984 (AmazonClassics Edition) (Orwell, George)"
+  clipping_title: "daily-left-news-2026-08-23 (Kindle Left News)"
   resolution:
-    citation_key: "foucault1997"
+    citation_key: "News2020"
 ```
 
 Candidates:
-- citation_key: `foucault1997`, zotero_item_id: `137`, zotero_key: `GHG9JTKY`, attachments: `1`, score: `0.88`, title: The essential works of Foucault, 1954-1984
-- citation_key: `bade2018a`, zotero_item_id: `7612`, zotero_key: `V37MBFR3`, attachments: `0`, score: `0.88`, title: Vom Export der Sozialen Frage zur importierten Sozialen Frage: Deutschland im transnationalen Wanderungsgeschehen seit der Mitte des 19. Jahrhunderts [1984/1985]
+- citation_key: `News2020`, zotero_item_id: `1713`, zotero_key: `5TYCKTFZ`, attachments: `0`, score: `0.92`, title: News
 
-- Example: highlight page `9` loc `113-114`: Either the future would resemble the present, in which case it would not listen to him, or it would be different from it, and his predicament would be meaningless.
-- Example: highlight page `9` loc `118-118`: At this moment, however, even the monologue had dried up.
-- Example: highlight page `9` loc `116-118`: For weeks past he had been making ready for this moment, and it had never crossed his mind that anything would be needed except courage. The actual writing would be easy. All he ha
+- Example: highlight page `3` loc `27-27`: Marx a proletarian thinker.
 
-### mew_band03
+## Unmatched Kindle Titles
 
-```yaml
-clipping_title: "mew_band03"
-status: unmatched-title
-clipping_count: 40
-kinds: {highlight: 40}
-citation_key: ""
-zotero_item_id: null
-zotero_key: ""
-zotero_title: ""
-attachment_count: null
-expected_attachment_type: "pdf-preferred"
-match_score: null
-match_reason: ""
-```
-
-- Example: highlight page `19-19` loc `None`: Diese Abhängigkeit von Hegel ist der Grund, warum keiner dieser neueren Kritiker eine umfassende Kritik des Hegeischen Systems auch nur versuchte, sosehr Jeder von ihnen behauptet,
-- Example: highlight page `19-19` loc `None`: Nach und nach wurde jedes herrschende Verhältnis für ein Verhältnis der Religion erklärt und in Kultus verwandelt, Kultus des Rechts, Kultus des Staats pp. Überall hatte man es nur
-- Example: highlight page `19-19` loc `None`: Die Althegelianer hatten Alles begriffen, sobald es auf eine Hegeische logische Kategorie zurückgeführt war. Die Junghegelianer kritisierten Alles, indem sie ihm religiöse Vorstell
-
-### MiloradPaviç_-_ hazar_sözlügü
-
-```yaml
-clipping_title: "MiloradPaviç_-_ hazar_sözlügü"
-status: unmatched-title
-clipping_count: 37
-kinds: {highlight: 36, note: 1}
-citation_key: ""
-zotero_item_id: null
-zotero_key: ""
-zotero_title: ""
-attachment_count: null
-expected_attachment_type: "pdf-preferred"
-match_score: null
-match_reason: ""
-```
-
-- Example: highlight page `15-15` loc `None`: Tersine çevrilebilir' sanatlar olan mimarlık, heykel ve resimde böyledir durum. Ama başka sanatlar da vardır... Tek yönlü sokaklara, her şeyin başlangıcından sonuna, doğumundan ölü
-- Example: highlight page `23-23` loc `None`: Okuyucu dokuzuncu sayfadaki şu sözcükleri okuyunca da ölüyordu: Verbum caro/actum est (Kelam beden oldu). Denetim nüshası zehirli yapıtla birlikte okunduğu takdirde, ölümün yaklaşt
-- Example: highlight page `31-31` loc `None`: İki insan düşünün, her biri bir ipin iki ucundan çekiyor ve ipin ortasında da bir puma tutuyorlar böylece. Aynı anda birbirlerine yaklaşmak isteseler, puma saldıracak onlara çünkü 
-
-### DRdZ 01 - Die Suche nach dem Auge der Welt (Robert Jordan)
-
-```yaml
-clipping_title: "DRdZ 01 - Die Suche nach dem Auge der Welt (Robert Jordan)"
-status: unmatched-title
-clipping_count: 33
-kinds: {highlight: 33}
-citation_key: ""
-zotero_item_id: null
-zotero_key: ""
-zotero_title: ""
-attachment_count: null
-expected_attachment_type: "epub-preferred"
-match_score: null
-match_reason: ""
-```
-
-- Example: highlight page `None` loc `6909-6909`: Egwene zeigte nicht ihre sonst so einwandfreien Manieren;
-- Example: highlight page `None` loc `7257-7257`: gebaut in Zeitalter von Legenden, man sagt. Da sein eine
-- Example: highlight page `None` loc `7257-7258`: gebaut in Zeitalter von Legenden, man sagt. Da sein eine Wand mit Fries, der zeigt Tiere, die kein lebender
-
-### Marcus Aurelius (Emperor of Rome), Martin Hammond, Diskin Clay - Meditations (2006, Penguin Books) - libgen.li
-
-```yaml
-clipping_title: "Marcus Aurelius (Emperor of Rome), Martin Hammond, Diskin Clay - Meditations (2006, Penguin Books) - libgen.li"
-status: unmatched-title
-clipping_count: 33
-kinds: {highlight: 33}
-citation_key: ""
-zotero_item_id: null
-zotero_key: ""
-zotero_title: ""
-attachment_count: null
-expected_attachment_type: "pdf-preferred"
-match_score: null
-match_reason: ""
-```
-
-- Example: highlight page `xv-xv` loc `None`: which show the emperor addressing his troops in a formal adlocutio
-- Example: highlight page `xxv-xxv` loc `None`: Throughout the history of the Stoa the emulation of Socrates generated the moral impetus to the way of thought and action distinctive of the Stoa. We find it in Epictetus (c. AD 55
-- Example: highlight page `xxxiv-xxxiv` loc `None`: There are other therapies in Marcus' repertoire of spiritual exercises that are not as difficult to accept as his radical dissecting and 'denuding' of human experience
-
-### On Populist Reason (Laclau, Ernesto)
-
-```yaml
-clipping_title: "On Populist Reason (Laclau, Ernesto)"
-status: unmatched-title
-clipping_count: 33
-kinds: {highlight: 33}
-citation_key: ""
-zotero_item_id: null
-zotero_key: ""
-zotero_title: ""
-attachment_count: null
-expected_attachment_type: "pdf-or-epub"
-match_score: null
-match_reason: ""
-```
-
-- Example: highlight page `135` loc `2285-2285`: As Kazin points out, until 1940 the notion of a conservative populism was an oxymoron.
-- Example: highlight page `135` loc `2285-2287`: As Kazin points out, until 1940 the notion of a conservative populism was an oxymoron. There was no connection between populism and the discourse of the traditional Right, which wa
-- Example: highlight page `135` loc `2285-2291`: As Kazin points out, until 1940 the notion of a conservative populism was an oxymoron. There was no connection between populism and the discourse of the traditional Right, which wa
-
-### Martyr! -- Akbar, Kaveh -- null, null, 2024 -- RANDOM HOUSE US -- 9780593802359 -- 930ede856e2a2efb28505e3c4e99e222 -- Anna’s Archive (Kaveh Akbar)
-
-```yaml
-clipping_title: "Martyr! -- Akbar, Kaveh -- null, null, 2024 -- RANDOM HOUSE US -- 9780593802359 -- 930ede856e2a2efb28505e3c4e99e222 -- Anna’s Archive (Kaveh Akbar)"
-status: unmatched-title
-clipping_count: 31
-kinds: {highlight: 31}
-citation_key: ""
-zotero_item_id: null
-zotero_key: ""
-zotero_title: ""
-attachment_count: null
-expected_attachment_type: "pdf-or-epub"
-match_score: null
-match_reason: ""
-```
-
-- Example: highlight page `21` loc `260-260`: maturation of the masses, these treatments would likely be palliative.
-- Example: highlight page `35` loc `428-430`: “I’ve read your poems, Cyrus. I get that you’re Persian. Born there, raised here. I know that’s a part of you. But you’ve probably spent more time looking at your phone today, just
-- Example: highlight page `37` loc `459-461`: “That certainty is what put worms in their brains, Cyrus. The only people who speak in certainties are zealots and tyrants.” “Sure, sure. But there’s no tiny secret part of you tha
-
-### (Kapitalismus und Schizophrenie 2) Guattari, Deleuze - Tausend Plateaus, Mille Plateaux-Les Editions de Minuit (1980)
-
-```yaml
-clipping_title: "(Kapitalismus und Schizophrenie 2) Guattari, Deleuze - Tausend Plateaus, Mille Plateaux-Les Editions de Minuit (1980)"
-status: unmatched-title
-clipping_count: 27
-kinds: {highlight: 27}
-citation_key: ""
-zotero_item_id: null
-zotero_key: ""
-zotero_title: ""
-attachment_count: null
-expected_attachment_type: "pdf-preferred"
-match_score: null
-match_reason: ""
-```
-
-- Example: highlight page `156-156` loc `None`: Deshalb kann man äußerstenfalls sogar auf den Begriff des Zeichens verzichten, da man prinzipiell nicht die Beziehung zwischen einem Zeichen und einem Sachverhalt, den es kennzeich
-- Example: highlight page `156-156` loc `None`: Deshalb kann man äußerstenfalls sogar auf den Begriff des Zeichens verzichten, da man prinzipiell nicht die Beziehung zwischen einem Zeichen und einem Sachverhalt, den es kennzeich
-- Example: highlight page `156-156` loc `None`: Das Zeichen hat also schon einen hohen Grad relativer Deterritorialisierung erreicht
-
-### Arendt_2017_
-
-```yaml
-clipping_title: "Arendt_2017_"
-status: unmatched-title
-clipping_count: 20
-kinds: {highlight: 20}
-citation_key: ""
-zotero_item_id: null
-zotero_key: ""
-zotero_title: ""
-attachment_count: null
-expected_attachment_type: "pdf-preferred"
-match_score: null
-match_reason: ""
-```
-
-- Example: highlight page `1-1` loc `None`: This transformation never occurred in the totalitarian, the Bolshevik and the Nazi movements. At the time it seized power the danger to the movement lay in the fact that, on one ha
-- Example: highlight page `2-2` loc `None`: The point is that both Hitler and Stalin held out promises of stability in order to hide their intention of creating a state of permanent instability
-- Example: highlight page `2-2` loc `None`: For the totalitarian ruler is confronted with a dual task which at first appears contradictory to the point of absurdity: he must establish the fictitious world of the movement as 
+Status: `unmatched-title`
+Clippings: 64
+Unique titles: 9
+Action: Add one confirmed mapping to match-overrides.json using citation_key, zotero_key, or zotero_item_id.
 
 ### Dune (Frank Herbert)
 
@@ -291,90 +99,6 @@ Candidates:
 - Example: highlight page `None` loc `109-110`: woman. “Sly little rascal.” She chuckled. “But royalty has need of slyness.
 - Example: highlight page `None` loc `243-243`: “Hope clouds observation.”
 - Example: highlight page `None` loc `243-243`: She extinguished the excitement, reminding herself: “Hope clouds observation.”
-
-### paul-lafargue-the-right-to-be-lazy (Paul Lafargue)
-
-```yaml
-clipping_title: "paul-lafargue-the-right-to-be-lazy (Paul Lafargue)"
-status: unmatched-title
-clipping_count: 17
-kinds: {highlight: 17}
-citation_key: ""
-zotero_item_id: null
-zotero_key: ""
-zotero_title: ""
-attachment_count: null
-expected_attachment_type: "pdf-or-epub"
-match_score: null
-match_reason: ""
-```
-
-- Example: highlight page `5` loc `42-43`: For the Spaniard, in whom the primitive animal has not been atrophied, work is the worst sort of slavery.
-- Example: highlight page `9` loc `91-92`: Modern factories have become ideal houses of correction in which the toiling masses are imprisoned,
-- Example: highlight page `13` loc `156-159`: requires too much violence and makes too much noise. Hunger, on the contrary, is not only a pressure which is peaceful, silent and incessant, but as it is the most natural motive f
-
-### Fire & Blood (A Song of Ice and Fire) (George R. R. Martin)
-
-```yaml
-clipping_title: "Fire & Blood (A Song of Ice and Fire) (George R. R. Martin)"
-status: unmatched-title
-clipping_count: 15
-kinds: {highlight: 15}
-citation_key: ""
-zotero_item_id: null
-zotero_key: ""
-zotero_title: ""
-attachment_count: null
-expected_attachment_type: "epub-preferred"
-match_score: null
-match_reason: ""
-```
-
-- Example: highlight page `None` loc `2164-2167`: Regent, in a rivalry that would continue into Jaehaerys’s own reign and threaten to plunge the Seven Kingdoms back into war.*1 The immediate cause of the tension was the king’s sud
-- Example: highlight page `None` loc `2236-2237`: of you.” For her, these days on Dragonstone were an idyll.
-- Example: highlight page `None` loc `5746-5747`: from Westeros soon after the wedding, crossing the narrow
-
-### Hardt_Negri_2017_
-
-```yaml
-clipping_title: "Hardt_Negri_2017_"
-status: unmatched-title
-clipping_count: 14
-kinds: {highlight: 14}
-citation_key: ""
-zotero_item_id: null
-zotero_key: ""
-zotero_title: ""
-attachment_count: null
-expected_attachment_type: "pdf-preferred"
-match_score: null
-match_reason: ""
-```
-
-- Example: highlight page `xiii-xiii` loc `None`: Save few exceptions, these movements either have abandoned their radical aspirations and become players in the existing systems or have been defeated by ferocious repression
-- Example: highlight page `xiii-xiii` loc `None`: Everything turns,” as Hegel says, “on grasping and expressing the True not only as Substance, but equally as Subject.”1 We must train our eyes to recognize how the movements have t
-- Example: highlight page `xiii-xiii` loc `None`: Everything turns,” as Hegel says, “on grasping and expressing the True not only as Substance, but equally as Subject.”1 We must train our eyes to recognize how the movements have t
-
-### Exhalation (Ted Chiang)
-
-```yaml
-clipping_title: "Exhalation (Ted Chiang)"
-status: unmatched-title
-clipping_count: 13
-kinds: {highlight: 13}
-citation_key: ""
-zotero_item_id: null
-zotero_key: ""
-zotero_title: ""
-attachment_count: null
-expected_attachment_type: "pdf-or-epub"
-match_score: null
-match_reason: ""
-```
-
-- Example: highlight page `111` loc `1601-1605`: The researchers conclude that there’s something missing in the Origami genome, but as far as Derek’s concerned, the fault lies with them. They’re blind to a simple truth: complex m
-- Example: highlight page `64` loc `902-903`: mutism was very rare, a result of damage to the anterior cingulate region of the brain. Now it spreads like a cognitive plague.
-- Example: highlight page `64` loc `901-903`: Before people started playing with Predictors, akinetic mutism was very rare, a result of damage to the anterior cingulate region of the brain. Now it spreads like a cognitive plag
 
 ### Brave New World (Aldous Huxley)
 
@@ -416,23 +140,26 @@ citation_key: ""
 zotero_item_id: null
 zotero_key: ""
 zotero_title: ""
-attachment_count: null
+attachment_count: 0
 expected_attachment_type: "pdf-preferred"
-match_score: null
-match_reason: ""
+match_score: 0.0
+match_reason: "override-unresolved:Galloway_2004_Protocol"
 ```
+
+Candidates:
+- citation_key: `None`, zotero_item_id: `0`, zotero_key: ``, attachments: `0`, score: `0.0`, title: None
 
 - Example: highlight page `13-13` loc `None`: This book—Protocol—points to one possible path for doing this. Throughout the discussions on power, control, and decentralization, Protocol consistently makes a case for a material
 - Example: highlight page `14-14` loc `None`: Further, code is not necessarily language, and certainly not a sign. A code, in the sense that Protocol defnes it, is process-based: It is parsed, compiled, procedural or object-or
 - Example: highlight page `14-14` loc `None`: Further, code is not necessarily language, and certainly not a sign. A code, in the sense that Protocol defnes it, is process-based: It is parsed, compiled, procedural or object-or
 
-### Chantal Mouffe - Hegemonie und radikale Demokratie.-Passagen Verlag Ges.M.B.H (2000)
+### somers-hall-binding-and-axiomatics
 
 ```yaml
-clipping_title: "Chantal Mouffe - Hegemonie und radikale Demokratie.-Passagen Verlag Ges.M.B.H (2000)"
+clipping_title: "somers-hall-binding-and-axiomatics"
 status: unmatched-title
-clipping_count: 8
-kinds: {highlight: 8}
+clipping_count: 10
+kinds: {highlight: 9, note: 1}
 citation_key: ""
 zotero_item_id: null
 zotero_key: ""
@@ -443,17 +170,17 @@ match_score: null
 match_reason: ""
 ```
 
-- Example: highlight page `22-22` loc `None`: ln der analytischen Tradition ist dies die Bewegung, die mit der Philosophie des späten Wittgenstein beginnt und in den verschiedenen Formen post-wittgensieinschen Denkens beibehal
-- Example: highlight page `184-184` loc `None`: politische Frage sich auf den Gegensatz Proletariat oder Kapitalisten zuspitzte... Es war schon eine ganz besondere taktische Geschicklichkeit der demokratischen Partei erforderlic
-- Example: highlight page `184-184` loc `None`: die Auflösung dieses amorphen „Volkes“ und sein 1 .i set/en durch <|j(. de soziale Basis der Arbeiterklasse hätten populäre Bewegungen die erlangt, die ihnen einen langf ristigen K
+- Example: note page `4` loc `None`: Then again, this might be the axiomatic nature of the machinic expansion .
+- Example: highlight page `4-4` loc `None`: In this sense, then, we have a series of indeterminate primitives which can be expressed in a variety of models. Deleuze and Guattari will argue that this abstraction of the axioma
+- Example: highlight page `5-5` loc `None`: This claim amounts to noting that without being able to see all of my experiences as my own, experience would be fragmentary. Now, this analytic unity for Kant presupposes a moment
 
-### The City & the City - China Mieville
+### Nemo Ramjet - All Tomorrows (2018) - libgen.li
 
 ```yaml
-clipping_title: "The City & the City - China Mieville"
+clipping_title: "Nemo Ramjet - All Tomorrows (2018) - libgen.li"
 status: unmatched-title
-clipping_count: 8
-kinds: {highlight: 8}
+clipping_count: 5
+kinds: {highlight: 5}
 citation_key: ""
 zotero_item_id: null
 zotero_key: ""
@@ -464,135 +191,9 @@ match_score: null
 match_reason: ""
 ```
 
-- Example: highlight page `12-12` loc `None`: We would never call inexplicable little insights “hunches,” for fear of drawing the universe’s attention. But they happened, and you knew you had been in the proximity of one that 
-- Example: highlight page `23-23` loc `None`: groove by the raised spill-stopper, and it had come back clean. The stains
-- Example: highlight page `142-142` loc `None`: Not very long ago the equivalent tests would have involved being asked about the different national character of Ul Qomans, and judging who from various pictures with stereotyped p
-
-### Latzer Just (2020)
-
-```yaml
-clipping_title: "Latzer Just (2020)"
-status: unmatched-title
-clipping_count: 7
-kinds: {highlight: 7}
-citation_key: ""
-zotero_item_id: null
-zotero_key: ""
-zotero_title: ""
-attachment_count: null
-expected_attachment_type: "pdf-preferred"
-match_score: null
-match_reason: ""
-```
-
-- Example: highlight page `2-2` loc `None`: provided by Gillespie: “encoded procedures for transforming input data into a desired output, based on specified calculations” (Gillespie, 2014, p.167)
-- Example: highlight page `5-5` loc `None`: communications, discussions about the governance by algorithms often focus on the influence on opinion formation and consequently the potential for its manipulation during polls an
-- Example: highlight page `5-5` loc `None`: which is executed via biased filter bubbles (decreasing variety of content), microtargeting (e.g. , political microtargeting, see Zuiderveen Borgesius et al. , 2018; or online beha
-
-### Deleuze and Guattaris
-
-```yaml
-clipping_title: "Deleuze and Guattaris"
-status: unmatched-title
-clipping_count: 6
-kinds: {highlight: 6}
-citation_key: ""
-zotero_item_id: null
-zotero_key: ""
-zotero_title: ""
-attachment_count: null
-expected_attachment_type: "pdf-preferred"
-match_score: null
-match_reason: ""
-```
-
-- Example: highlight page `38-38` loc `None`: productive unconscious, built around the concept of desiring-machines
-- Example: highlight page `41-41` loc `None`: What the schizophrenic lives, both as an individual and as a member of the human species, is not at all any one specific aspect of nature, but nature as & process of production' (A
-- Example: highlight page `41-41` loc `None`: validity" to mitigate the despair, terror, and boredom of existence'.2 It is not simply that as Lenz sees them, the earth, the wind, the water and so on are infused with a life of 
-
-### Ernesto Laclau - On Populist Reason-Verso (2005)
-
-```yaml
-clipping_title: "Ernesto Laclau - On Populist Reason-Verso (2005)"
-status: unmatched-title
-clipping_count: 6
-kinds: {highlight: 6}
-citation_key: ""
-zotero_item_id: null
-zotero_key: ""
-zotero_title: ""
-attachment_count: null
-expected_attachment_type: "pdf-preferred"
-match_score: null
-match_reason: ""
-```
-
-- Example: highlight page `127-127` loc `None`: This, as we have seen, leads to one of the demands stepping in and becoming the signifier of the whole chain — a tendentially empty signifier
-- Example: highlight page `127-127` loc `None`: This, as we have seen, leads to one of the demands stepping in and becoming the signifier of the whole chain — a tendentially empty signifier. But the whole model depends on the pr
-- Example: highlight page `127-127` loc `None`: This, as we have seen, leads to one of the demands stepping in and becoming the signifier of the whole chain — a tendentially empty signifier
-
-### Lem, Stanislaw - Solaris (Stanisław Lem)
-
-```yaml
-clipping_title: "Lem, Stanislaw - Solaris (Stanisław Lem)"
-status: unmatched-title
-clipping_count: 6
-kinds: {highlight: 6}
-citation_key: ""
-zotero_item_id: null
-zotero_key: ""
-zotero_title: ""
-attachment_count: null
-expected_attachment_type: "pdf-or-epub"
-match_score: null
-match_reason: ""
-```
-
-- Example: highlight page `7` loc `52-53`: extended vast and flat; from the size of the streaks on its surface I could tell I was still a long way off. Or rather, a long way up, since I’d already passed that intangible boun
-- Example: highlight page `15` loc `298-300`: In this way it was physicists, not biologists, who proposed the paradoxical formulation “plasmic machine” to refer to a formation that in our sense might be devoid of life, but was
-- Example: highlight page `48` loc `1262-1269`: We’re humanitarian and noble, we’ve no intention of subjugating other races, we only want to impart our values to them and in return, to appropriate their heritage. We see ourselve
-
-### Deleuze, Guattari- A Thousand Plateaus - Bobo
-
-```yaml
-clipping_title: "Deleuze, Guattari- A Thousand Plateaus - Bobo"
-status: unmatched-title
-clipping_count: 4
-kinds: {highlight: 4}
-citation_key: ""
-zotero_item_id: null
-zotero_key: ""
-zotero_title: ""
-attachment_count: null
-expected_attachment_type: "pdf-preferred"
-match_score: null
-match_reason: ""
-```
-
-- Example: highlight page `172-172` loc `None`: BwO is what remains when you take everything away
-- Example: highlight page `172-172` loc `None`: BwO is what remains when you take everything away. What you take away is precisely the phantasy, and signifiances and subjectifications as a whole. Psychoanalysis does the opposite
-- Example: highlight page `172-172` loc `None`: BwO is what remains when you take everything away. What you take away is precisely the phantasy, and signifiances and subjectifications as a whole. Psychoanalysis does the opposite
-
-### Howaldt_Schwarz_2016_SI-DRIVE
-
-```yaml
-clipping_title: "Howaldt_Schwarz_2016_SI-DRIVE"
-status: unmatched-title
-clipping_count: 4
-kinds: {highlight: 4}
-citation_key: ""
-zotero_item_id: null
-zotero_key: ""
-zotero_title: ""
-attachment_count: null
-expected_attachment_type: "pdf-preferred"
-match_score: null
-match_reason: ""
-```
-
-- Example: highlight page `40-40` loc `None`: transformation possibilities and creative potentials” (Antoniolo 2010, p.13) in society and search “for the conditions of the genesis and production of the new in all areas of life
-- Example: highlight page `40-40` loc `None`: Thus the concept of micro-politics focuses on the continuous “differentiations of social practices”, on “the large number of differentially determined, interacting currents which r
-- Example: highlight page `41-41` loc `None`: (ibid. ) Micropolitical analysis focuses on these structures and the property of being entangled in structures, or in other words on the relational structures at the micro-level. F
+- Example: highlight page `10` loc `None`: Heyday
+- Example: highlight page `36-36` loc `None`: structure of cerebellum so that certain features associated with heuristic
+- Example: highlight page `59-59` loc `None`: world. On one hand there were several races of almost Australopithecine
 
 ### (Grundstudium Mathematik) Herbert Amann, Joachim Escher - Analysis 1-Birkhauser Basel (2006)
 
@@ -623,13 +224,41 @@ Candidates:
 - Example: highlight page `21-21` loc `None`: , es gibt genau eine leere Menge; sie wird mit ∅ bezeichnet und ist Teilmenge jeder Menge
 - Example: highlight page `21-21` loc `None`: Die leere Menge besitzt jede Eigenschaft
 
-### Deleuze, Bartleby; or, the Formula
+### Rethinking Algorithmic Regulation Kybern - Unknown
 
 ```yaml
-clipping_title: "Deleuze, Bartleby; or, the Formula"
+clipping_title: "Rethinking Algorithmic Regulation Kybern - Unknown"
 status: unmatched-title
-clipping_count: 3
-kinds: {highlight: 3}
+clipping_count: 2
+kinds: {highlight: 2}
+citation_key: "medina2015"
+zotero_item_id: 350
+zotero_key: "SGZMZ9X7"
+zotero_title: "Rethinking algorithmic regulation"
+attachment_count: 1
+expected_attachment_type: "pdf-preferred"
+match_score: 0.92
+match_reason: "title-contained-in-clipping-title"
+override_entry:
+  clipping_title: "Rethinking Algorithmic Regulation Kybern - Unknown"
+  resolution:
+    citation_key: "medina2015"
+```
+
+Candidates:
+- citation_key: `medina2015`, zotero_item_id: `350`, zotero_key: `SGZMZ9X7`, attachments: `1`, score: `0.92`, title: Rethinking algorithmic regulation
+- citation_key: `goffey2008`, zotero_item_id: `208`, zotero_key: `I4C9Y46T`, attachments: `0`, score: `0.92`, title: Algorithm.
+
+- Example: highlight page `5-5` loc `None`: increase worker participation in the economy and preserve the autonomy of factory managers, even with the expansion of state influence.
+- Example: highlight page `5-5` loc `None`: synergy,” the idea that the whole of the system was more than the sum of its technological parts.
+
+### parrhesia01_sinnerbrink
+
+```yaml
+clipping_title: "parrhesia01_sinnerbrink"
+status: unmatched-title
+clipping_count: 1
+kinds: {highlight: 1}
 citation_key: ""
 zotero_item_id: null
 zotero_key: ""
@@ -640,74 +269,26 @@ match_score: null
 match_reason: ""
 ```
 
-- Example: highlight page `1-1` loc `None`: This is an agrammatical formula that stands as the limit of a series of correct expressions: J'en ai de trop, Je n'en ai pas assez, II m'en manque un ..“I have too many,” “I don't 
-- Example: highlight page `3-3` loc `None`: If need be, other languages will be summoned into English in order to make it echo this divine language of storm and thunder. Melville invents a foreign language that runs beneath 
-- Example: highlight page `3-3` loc `None`: If need be, other languages will be summoned into English in order to make it echo this divine language of storm and thunder. Melville invents a foreign language that runs beneath 
+- Example: highlight page `1-1` loc `None`: And Zizek’s Organs without Bodies certainly remains true to this Deleuzian insight. In this traumatic philosophical encounter, Zizek misunderstands Deleuze, who misunderstands Hege
 
-### The Republic (Plato)
+### Raymond M. Smullyan - The Chess Mysteries of Sherlock Holmes-Hutchinson (1980)
 
 ```yaml
-clipping_title: "The Republic (Plato)"
+clipping_title: "Raymond M. Smullyan - The Chess Mysteries of Sherlock Holmes-Hutchinson (1980)"
 status: unmatched-title
-clipping_count: 3
-kinds: {highlight: 3}
+clipping_count: 1
+kinds: {highlight: 1}
 citation_key: ""
 zotero_item_id: null
 zotero_key: ""
 zotero_title: ""
 attachment_count: null
-expected_attachment_type: "epub-preferred"
+expected_attachment_type: "pdf-preferred"
 match_score: null
 match_reason: ""
 ```
 
-- Example: highlight page `None` loc `465-467`: as the government must be supposed to have power, the only reasonable conclusion is, that everywhere there is one principle of justice, which is the interest of the stronger.
-- Example: highlight page `None` loc `532-533`: Then, I said, no science or art considers or enjoins the interest of the stronger or superior, but only the interest of the subject and weaker?
-- Example: highlight page `None` loc `550-552`: First of all, in private contracts: wherever the unjust is the partner of the just you will find that, when the partnership is dissolved, the unjust man has always more and the jus
-
-### The Way of Kings (Sanderson, Brandon)
-
-```yaml
-clipping_title: "The Way of Kings (Sanderson, Brandon)"
-status: unmatched-title
-clipping_count: 3
-kinds: {highlight: 3}
-citation_key: ""
-zotero_item_id: null
-zotero_key: ""
-zotero_title: ""
-attachment_count: null
-expected_attachment_type: "epub-preferred"
-match_score: null
-match_reason: ""
-```
-
-- Example: highlight page `None` loc `369-370`: For if you were going to assassinate a man, he was entitled to see you coming.
-- Example: highlight page `None` loc `366-370`: Today, that included wearing white. Loose white trousers tied at the waist with a rope, and over them a filmy shirt with long sleeves, open at the front. White clothing for a kille
-- Example: highlight page `None` loc `407-408`: As Truthless, there was only one life he was forbidden to take. And that was his own.
-
-### Your P2K Articles (2024-12-17) (P2K)
-
-```yaml
-clipping_title: "Your P2K Articles (2024-12-17) (P2K)"
-status: unmatched-title
-clipping_count: 3
-kinds: {highlight: 3}
-citation_key: ""
-zotero_item_id: null
-zotero_key: ""
-zotero_title: ""
-attachment_count: null
-expected_attachment_type: "pdf-or-epub"
-match_score: null
-match_reason: ""
-```
-
-- Example: highlight page `11` loc `85-85`: Captagon,
-- Example: highlight page `12` loc `90-92`: particular importance here is Hezbollah, whose elite units played a key part in fighting the jihadi opposition in Syria. But most of these have been transferred to Lebanon to fight
-- Example: highlight page `15` loc `114-117`: Nobody knows if Iran and the regime would have been weakened without the recent Israeli attacks in Syria, which have allowed us to return and free the lands and the country,’ a man
-
-_Showing first 30 of 40 unique titles._
+- Example: highlight page `23` loc `None`: retrograde
 
 ## Matched Attachment But Missing File Path
 
@@ -792,8 +373,8 @@ Candidates:
 ## Attachment Found But Text Position Failed
 
 Status: `epub-text-not-found`
-Clippings: 183
-Unique titles: 12
+Clippings: 269
+Unique titles: 15
 Action: Needs looser EPUB text matching or manual review.
 
 ### Dostoyevsky and Taluy_2020_Karamazov kardeşler
@@ -812,16 +393,16 @@ expected_attachment_type: "pdf-preferred"
 match_score: 0.92
 match_reason: "title-contained-in-clipping-title"
 attachment_choices:
-  - attachment_item_id: 40547
-    attachment_key: "HN83F6ZU"
+  - attachment_item_id: 73511
+    attachment_key: "XSMFAN6T"
     attachment_title: "Dostoyevsky and Taluy_2020_Karamazov kardeşler 1.epub"
     content_type: "application/epub+zip"
-    path: "/Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Dostoyevsky and Taluy_2020_Karamazov kardeşler 1.epub"
-  - attachment_item_id: 40543
-    attachment_key: "V42288YE"
+    path: "/Users/ubd/Zotero/storage/XSMFAN6T/Dostoyevsky and Taluy_2020_Karamazov kardeşler 1.epub"
+  - attachment_item_id: 73512
+    attachment_key: "DP9W5GQQ"
     attachment_title: "Dostoyevsky and Taluy_2020_Karamazov kardeşler.pdf"
     content_type: "application/pdf"
-    path: "/Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Dostoyevsky and Taluy_2020_Karamazov kardeşler.pdf"
+    path: "/Users/ubd/Zotero/storage/DP9W5GQQ/Dostoyevsky and Taluy_2020_Karamazov kardeşler.pdf"
 override_entry:
   clipping_title: "Dostoyevsky and Taluy_2020_Karamazov kardeşler"
   resolution:
@@ -836,6 +417,42 @@ Candidates:
 - Example: highlight page `VII-VII` loc `None`: En zorlusu da şu son soru... Çünkü bu soruyu ancak, "Bunu, romanı okuyunca anlarsınız! " diye yanıtiayabilirim, ama ya romanı bitirdikten sonra da, Aleksey Fyodoroviç'imde ne özell
 - Example: highlight page `VII-VII` loc `None`: Kahramamı Aleksey Fyodoroviç Karamazov'un hayat hikayesine başlarken duraksıyorum biraz. Nedeni de şu: Aleksey Fyodoroviç'i kahraman olarak alıken, onun hiç de büyük bir adam olmad
 - Example: highlight page `VIII-VIII` loc `None`: istemezlerse? Üstelik, bunun böyle olacağını şimdiden, üzü­ lerek kestirebiliyorum. Bence bu adamda bazı özellikler var, ama bunu okurlara kanıtiayıp kanıtlayamayacağımdan pek emin
+
+### Coogan_2018_The New Oxford Annotated Bible New Revised Standard Version (Michael Coogan)
+
+```yaml
+clipping_title: "Coogan_2018_The New Oxford Annotated Bible New Revised Standard Version (Michael Coogan)"
+status: epub-text-not-found
+clipping_count: 51
+kinds: {highlight: 51}
+citation_key: "coogan2018"
+zotero_item_id: 75553
+zotero_key: "8YG5SPS6"
+zotero_title: "The New Oxford Annotated Bible: New Revised Standard Version"
+attachment_count: 1
+expected_attachment_type: "epub"
+match_score: 1.0
+match_reason: "citationKey"
+attachment_choices:
+  - attachment_item_id: 75558
+    attachment_key: "2L98LUYN"
+    attachment_title: "Coogan_2018_The New Oxford Annotated Bible New Revised Standard Version.epub"
+    content_type: "application/epub+zip"
+    path: "/Users/ubd/Zotero/storage/2L98LUYN/Coogan_2018_The New Oxford Annotated Bible New Revised Standard Version.epub"
+override_entry:
+  clipping_title: "Coogan_2018_The New Oxford Annotated Bible New Revised Standard Version (Michael Coogan)"
+  resolution:
+    citation_key: "coogan2018"
+    attachment_key: "PASTE_SELECTED_ATTACHMENT_KEY"
+    attachment_item_id: null
+```
+
+Candidates:
+- citation_key: `coogan2018`, zotero_item_id: `75553`, zotero_key: `8YG5SPS6`, attachments: `1`, score: `1.0`, title: The New Oxford Annotated Bible: New Revised Standard Version
+
+- Example: highlight page `1384` loc `80321-80322`: The scribes were not a distinct religious group, but a loose assemblage of lawyers, teachers, and interpreters of the Torah (Sir 39.1–11).
+- Example: highlight page `1390` loc `80530-80534`: You are the light of the world. A city built on a hill cannot be hid. 15No one after lighting a lamp puts it under the bushel basket, but on the lampstand, and it gives light to al
+- Example: highlight page `1391` loc `80539-80541`: 20For I tell you, unless your righteousness exceeds that of the scribes and Pharisees, you will never enter the kingdom of heaven.
 
 ### Gilles Deleuze, Felix Guattari - Anti-Oedipus_ Capitalism and Schizophrenia-Univ Of Minnesota Press (1983)
 
@@ -853,21 +470,21 @@ expected_attachment_type: "pdf-preferred"
 match_score: 0.92
 match_reason: "title-contained-in-clipping-title"
 attachment_choices:
-  - attachment_item_id: 42874
-    attachment_key: "5PMKEQHR"
+  - attachment_item_id: 73477
+    attachment_key: "WM3I2QU5"
     attachment_title: "Deleuze and Guattari_1983_Anti-Oedipus capitalism and schizophrenia 1.pdf"
     content_type: "application/pdf"
-    path: "/Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Deleuze and Guattari_1983_Anti-Oedipus capitalism and schizophrenia 1.pdf"
-  - attachment_item_id: 42876
-    attachment_key: "HUBBR88Z"
+    path: "/Users/ubd/Zotero/storage/WM3I2QU5/Deleuze and Guattari_1983_Anti-Oedipus capitalism and schizophrenia 1.pdf"
+  - attachment_item_id: 73478
+    attachment_key: "QCT92KP4"
     attachment_title: "Deleuze and Guattari_1983_Anti-Oedipus capitalism and schizophrenia.epub"
     content_type: "application/epub+zip"
-    path: "/Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Deleuze and Guattari_1983_Anti-Oedipus capitalism and schizophrenia.epub"
-  - attachment_item_id: 42873
-    attachment_key: "WRX7QDU5"
+    path: "/Users/ubd/Zotero/storage/QCT92KP4/Deleuze and Guattari_1983_Anti-Oedipus capitalism and schizophrenia.epub"
+  - attachment_item_id: 73479
+    attachment_key: "YQT2MIE6"
     attachment_title: "Deleuze and Guattari_1983_Anti-Oedipus capitalism and schizophrenia.pdf"
     content_type: "application/pdf"
-    path: "/Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Deleuze and Guattari_1983_Anti-Oedipus capitalism and schizophrenia.pdf"
+    path: "/Users/ubd/Zotero/storage/YQT2MIE6/Deleuze and Guattari_1983_Anti-Oedipus capitalism and schizophrenia.pdf"
 override_entry:
   clipping_title: "Gilles Deleuze, Felix Guattari - Anti-Oedipus_ Capitalism and Schizophrenia-Univ Of Minnesota Press (1983)"
   resolution:
@@ -899,16 +516,16 @@ expected_attachment_type: "pdf-preferred"
 match_score: 0.92
 match_reason: "title-contained-in-clipping-title"
 attachment_choices:
-  - attachment_item_id: 73104
-    attachment_key: "QKYEIMI6"
+  - attachment_item_id: 73434
+    attachment_key: "MYA5AUIH"
     attachment_title: "Burroughs_2012_The soft machine.epub"
     content_type: "application/epub+zip"
-    path: "/Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Burroughs_2012_The soft machine.epub"
-  - attachment_item_id: 73106
-    attachment_key: "29NYGBJ9"
+    path: "/Users/ubd/Zotero/storage/MYA5AUIH/Burroughs_2012_The soft machine.epub"
+  - attachment_item_id: 73435
+    attachment_key: "BTJ4A2BJ"
     attachment_title: "Burroughs_2012_The soft machine.pdf"
     content_type: "application/pdf"
-    path: "/Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Burroughs_2012_The soft machine.pdf"
+    path: "/Users/ubd/Zotero/storage/BTJ4A2BJ/Burroughs_2012_The soft machine.pdf"
 override_entry:
   clipping_title: "William S. Burroughs - The Soft Machine-Grove Press (1992)"
   resolution:
@@ -924,54 +541,51 @@ Candidates:
 - Example: highlight page `30-30` loc `None`: Switch Artist me. Oh, there goes my frequency. I'm on
 - Example: highlight page `37-37` loc `None`: More routine workI studied Mayan and listened to it on the tape recorder and mixed Mayan in with EnglishI made innumerable photomontages of Mayan codices and artifactsthe next s
 
-### The Communist Hypothesis (Alain Badiou)
+### 1984 (AmazonClassics Edition) (Orwell, George)
 
 ```yaml
-clipping_title: "The Communist Hypothesis (Alain Badiou)"
+clipping_title: "1984 (AmazonClassics Edition) (Orwell, George)"
 status: epub-text-not-found
-clipping_count: 15
-kinds: {highlight: 15}
-citation_key: "badiou2015"
-zotero_item_id: 472
-zotero_key: "GEH63EJT"
-zotero_title: "The communist hypothesis"
-attachment_count: 2
-expected_attachment_type: "epub-preferred"
+clipping_count: 23
+kinds: {highlight: 23}
+citation_key: "orwell2017"
+zotero_item_id: 73326
+zotero_key: "SV7WPQKQ"
+zotero_title: "1984"
+attachment_count: 1
+expected_attachment_type: "epub"
 match_score: 0.98
 match_reason: "title-exact"
 attachment_choices:
-  - attachment_item_id: 73096
-    attachment_key: "WVAYQNEG"
-    attachment_title: "Badiou_2015_The communist hypothesis.epub"
+  - attachment_item_id: 73769
+    attachment_key: "GBUWLWRY"
+    attachment_title: "Orwell and Fromm_2017_1984.epub"
     content_type: "application/epub+zip"
-    path: "/Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Badiou_2015_The communist hypothesis.epub"
-  - attachment_item_id: 73098
-    attachment_key: "WR4TFLUZ"
-    attachment_title: "Badiou_2015_The communist hypothesis.pdf"
-    content_type: "application/pdf"
-    path: "/Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Badiou_2015_The communist hypothesis.pdf"
+    path: "/Users/ubd/Zotero/storage/GBUWLWRY/Orwell and Fromm_2017_1984.epub"
 override_entry:
-  clipping_title: "The Communist Hypothesis (Alain Badiou)"
+  clipping_title: "1984 (AmazonClassics Edition) (Orwell, George)"
   resolution:
-    citation_key: "badiou2015"
+    citation_key: "orwell2017"
     attachment_key: "PASTE_SELECTED_ATTACHMENT_KEY"
     attachment_item_id: null
 ```
 
 Candidates:
-- citation_key: `badiou2015`, zotero_item_id: `472`, zotero_key: `GEH63EJT`, attachments: `2`, score: `0.98`, title: The communist hypothesis
+- citation_key: `orwell2017`, zotero_item_id: `73326`, zotero_key: `SV7WPQKQ`, attachments: `1`, score: `0.98`, title: 1984
+- citation_key: `foucault1997`, zotero_item_id: `137`, zotero_key: `GHG9JTKY`, attachments: `1`, score: `0.88`, title: The essential works of Foucault, 1954-1984
+- citation_key: `bade2018a`, zotero_item_id: `7612`, zotero_key: `V37MBFR3`, attachments: `0`, score: `0.88`, title: Vom Export der Sozialen Frage zur importierten Sozialen Frage: Deutschland im transnationalen Wanderungsgeschehen seit der Mitte des 19. Jahrhunderts [1984/1985]
 
-- Example: highlight page `None` loc `80-87`: for example, that ‘Fermat’s theorem’ is a hypothesis if we formulate it as: ‘For >n, I assume that the equation xn + yn = zn has no whole solutions (solutions in which x, y and z a
-- Example: highlight page `None` loc `619-623`: The bourgeoisie had indeed found a convenient hiding place inside the party, and the means to forge its new power, as we can see from China today, now that it has embarked upon a n
-- Example: highlight page `None` loc `905-907`: I use the term ‘saturation’ in the sense given to it by Sylvain Lazarus;2 I will attempt to show that the Cultural Revolution is the
+- Example: highlight page `9` loc `113-114`: Either the future would resemble the present, in which case it would not listen to him, or it would be different from it, and his predicament would be meaningless.
+- Example: highlight page `11` loc `148-149`: It was always the women, and above all the young ones, who were the most bigoted adherents of the Party, the swallowers of slogans, the amateur spies and nosers-out of unorthodoxy
+- Example: highlight page `15` loc `209-209`: current, turning one even against one’s will into a grimacing,
 
 ### Holland_2013_Deleuze and Guattari's A thousand plateaus a reader's guide (Holland, Eugene W.)
 
 ```yaml
 clipping_title: "Holland_2013_Deleuze and Guattari's A thousand plateaus a reader's guide (Holland, Eugene W.)"
 status: epub-text-not-found
-clipping_count: 13
-kinds: {highlight: 13}
+clipping_count: 20
+kinds: {highlight: 20}
 citation_key: "holland2013"
 zotero_item_id: 45058
 zotero_key: "MR7YD8FW"
@@ -981,11 +595,11 @@ expected_attachment_type: "epub"
 match_score: 1.0
 match_reason: "citationKey"
 attachment_choices:
-  - attachment_item_id: 45062
-    attachment_key: "DVSTKU2W"
+  - attachment_item_id: 73612
+    attachment_key: "UQWJT8YQ"
     attachment_title: "Holland_2013_Deleuze and Guattari's A thousand plateaus a reader's guide.epub"
     content_type: "application/epub+zip"
-    path: "/Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Holland_2013_Deleuze and Guattari's A thousand plateaus a reader's guide.epub"
+    path: "/Users/ubd/Zotero/storage/UQWJT8YQ/Holland_2013_Deleuze and Guattari's A thousand plateaus a reader's guide.epub"
 override_entry:
   clipping_title: "Holland_2013_Deleuze and Guattari's A thousand plateaus a reader's guide (Holland, Eugene W.)"
   resolution:
@@ -1001,13 +615,54 @@ Candidates:
 - Example: highlight page `41` loc `513-516`: The economic instance, in other words, is a Problematic virtual structure (how to produce means of life to assure survival) to which various societies (or a given society at variou
 - Example: highlight page `41` loc `520-523`: debt; whereas Marx considered production to be primary, Deleuze & Guattari draw here on Nietzsche more than Marx, and instead consider debt to be the primary organizing element in 
 
+### The Communist Hypothesis (Alain Badiou)
+
+```yaml
+clipping_title: "The Communist Hypothesis (Alain Badiou)"
+status: epub-text-not-found
+clipping_count: 15
+kinds: {highlight: 15}
+citation_key: "badiou2015"
+zotero_item_id: 472
+zotero_key: "GEH63EJT"
+zotero_title: "The communist hypothesis"
+attachment_count: 2
+expected_attachment_type: "epub-preferred"
+match_score: 1.0
+match_reason: "override-citation-key:badiou2015"
+attachment_choices:
+  - attachment_item_id: 73375
+    attachment_key: "RKTNKNWN"
+    attachment_title: "Badiou_2015_The communist hypothesis.epub"
+    content_type: "application/epub+zip"
+    path: "/Users/ubd/Zotero/storage/RKTNKNWN/Badiou_2015_The communist hypothesis.epub"
+  - attachment_item_id: 73376
+    attachment_key: "QYX3T3JH"
+    attachment_title: "Badiou_2015_The communist hypothesis.pdf"
+    content_type: "application/pdf"
+    path: "/Users/ubd/Zotero/storage/QYX3T3JH/Badiou_2015_The communist hypothesis.pdf"
+override_entry:
+  clipping_title: "The Communist Hypothesis (Alain Badiou)"
+  resolution:
+    citation_key: "badiou2015"
+    attachment_key: "PASTE_SELECTED_ATTACHMENT_KEY"
+    attachment_item_id: null
+```
+
+Candidates:
+- citation_key: `badiou2015`, zotero_item_id: `472`, zotero_key: `GEH63EJT`, attachments: `2`, score: `1.0`, title: The communist hypothesis
+
+- Example: highlight page `None` loc `80-87`: for example, that ‘Fermat’s theorem’ is a hypothesis if we formulate it as: ‘For >n, I assume that the equation xn + yn = zn has no whole solutions (solutions in which x, y and z a
+- Example: highlight page `None` loc `619-623`: The bourgeoisie had indeed found a convenient hiding place inside the party, and the means to forge its new power, as we can see from China today, now that it has embarked upon a n
+- Example: highlight page `None` loc `905-907`: I use the term ‘saturation’ in the sense given to it by Sylvain Lazarus;2 I will attempt to show that the Cultural Revolution is the
+
 ### (fixed) Negarestani_2008_Cyclonopedia complicity with anonymous materials (Reza Negarestani)
 
 ```yaml
 clipping_title: "(fixed) Negarestani_2008_Cyclonopedia complicity with anonymous materials (Reza Negarestani)"
 status: epub-text-not-found
-clipping_count: 5
-kinds: {highlight: 5}
+clipping_count: 9
+kinds: {highlight: 9}
 citation_key: "negarestani2008"
 zotero_item_id: 51395
 zotero_key: "JTDWDKRH"
@@ -1017,11 +672,11 @@ expected_attachment_type: "epub"
 match_score: 0.92
 match_reason: "title-contained-in-clipping-title"
 attachment_choices:
-  - attachment_item_id: 51402
-    attachment_key: "P6XQUQXF"
+  - attachment_item_id: 73750
+    attachment_key: "67J7SL6P"
     attachment_title: "Negarestani_2008_Cyclonopedia complicity with anonymous materials 1.epub"
     content_type: "application/epub+zip"
-    path: "/Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Negarestani_2008_Cyclonopedia complicity with anonymous materials.epub"
+    path: "/Users/ubd/Zotero/storage/67J7SL6P/Negarestani_2008_Cyclonopedia complicity with anonymous materials.epub"
 override_entry:
   clipping_title: "(fixed) Negarestani_2008_Cyclonopedia complicity with anonymous materials (Reza Negarestani)"
   resolution:
@@ -1053,11 +708,11 @@ expected_attachment_type: "epub"
 match_score: 1.0
 match_reason: "citationKey"
 attachment_choices:
-  - attachment_item_id: 42882
-    attachment_key: "SK7YDIFX"
+  - attachment_item_id: 73389
+    attachment_key: "5IY8GXVD"
     attachment_title: "Beckett_2009_Three novels.epub"
     content_type: "application/epub+zip"
-    path: "/Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Beckett_2009_Three novels.epub"
+    path: "/Users/ubd/Zotero/storage/5IY8GXVD/Beckett_2009_Three novels.epub"
 override_entry:
   clipping_title: "Beckett_2009_Three novels (Samuel Beckett)"
   resolution:
@@ -1088,21 +743,21 @@ expected_attachment_type: "pdf-or-epub"
 match_score: 0.92
 match_reason: "title-contained-in-clipping-title"
 attachment_choices:
-  - attachment_item_id: 42874
-    attachment_key: "5PMKEQHR"
+  - attachment_item_id: 73477
+    attachment_key: "WM3I2QU5"
     attachment_title: "Deleuze and Guattari_1983_Anti-Oedipus capitalism and schizophrenia 1.pdf"
     content_type: "application/pdf"
-    path: "/Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Deleuze and Guattari_1983_Anti-Oedipus capitalism and schizophrenia 1.pdf"
-  - attachment_item_id: 42876
-    attachment_key: "HUBBR88Z"
+    path: "/Users/ubd/Zotero/storage/WM3I2QU5/Deleuze and Guattari_1983_Anti-Oedipus capitalism and schizophrenia 1.pdf"
+  - attachment_item_id: 73478
+    attachment_key: "QCT92KP4"
     attachment_title: "Deleuze and Guattari_1983_Anti-Oedipus capitalism and schizophrenia.epub"
     content_type: "application/epub+zip"
-    path: "/Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Deleuze and Guattari_1983_Anti-Oedipus capitalism and schizophrenia.epub"
-  - attachment_item_id: 42873
-    attachment_key: "WRX7QDU5"
+    path: "/Users/ubd/Zotero/storage/QCT92KP4/Deleuze and Guattari_1983_Anti-Oedipus capitalism and schizophrenia.epub"
+  - attachment_item_id: 73479
+    attachment_key: "YQT2MIE6"
     attachment_title: "Deleuze and Guattari_1983_Anti-Oedipus capitalism and schizophrenia.pdf"
     content_type: "application/pdf"
-    path: "/Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Deleuze and Guattari_1983_Anti-Oedipus capitalism and schizophrenia.pdf"
+    path: "/Users/ubd/Zotero/storage/YQT2MIE6/Deleuze and Guattari_1983_Anti-Oedipus capitalism and schizophrenia.pdf"
 override_entry:
   clipping_title: "Deleuze and Guattari_1983_Anti-Oedipus capitalism and schizophrenia (Gilles Deleuze, Felix Guattari)"
   resolution:
@@ -1133,16 +788,16 @@ expected_attachment_type: "pdf-or-epub"
 match_score: 1.0
 match_reason: "citationKey"
 attachment_choices:
-  - attachment_item_id: 46712
-    attachment_key: "QPJNPMKP"
+  - attachment_item_id: 73694
+    attachment_key: "VQP7RDYW"
     attachment_title: "Mackenzie_2018_Resistance and the politics of truth Foucault, Deleuze, Badiou.epub"
     content_type: "application/epub+zip"
-    path: "/Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Mackenzie_2018_Resistance and the politics of truth Foucault, Deleuze, Badiou.epub"
-  - attachment_item_id: 46714
-    attachment_key: "KE7XRV35"
+    path: "/Users/ubd/Zotero/storage/VQP7RDYW/Mackenzie_2018_Resistance and the politics of truth Foucault, Deleuze, Badiou.epub"
+  - attachment_item_id: 73695
+    attachment_key: "Y49LILX8"
     attachment_title: "Mackenzie_2018_Resistance and the politics of truth Foucault, Deleuze, Badiou.pdf"
     content_type: "application/pdf"
-    path: "/Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Mackenzie_2018_Resistance and the politics of truth Foucault, Deleuze, Badiou.pdf"
+    path: "/Users/ubd/Zotero/storage/Y49LILX8/Mackenzie_2018_Resistance and the politics of truth Foucault, Deleuze, Badiou.pdf"
 override_entry:
   clipping_title: "Mackenzie_2018_Resistance and the politics of truth Foucault, Deleuze, Badiou (Iain MacKenzie)"
   resolution:
@@ -1174,11 +829,11 @@ expected_attachment_type: "epub"
 match_score: 1.0
 match_reason: "citationKey"
 attachment_choices:
-  - attachment_item_id: 42872
-    attachment_key: "8ZMLY422"
+  - attachment_item_id: 73429
+    attachment_key: "JFZSQXP2"
     attachment_title: "Buchner_2004_Lenz.epub"
     content_type: "application/epub+zip"
-    path: "/Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Buchner_2004_Lenz.epub"
+    path: "/Users/ubd/Zotero/storage/JFZSQXP2/Buchner_2004_Lenz.epub"
 override_entry:
   clipping_title: "Buchner_2004_Lenz (Georg Buchner)"
   resolution:
@@ -1208,11 +863,11 @@ expected_attachment_type: "epub"
 match_score: 0.92
 match_reason: "title-contained-in-clipping-title"
 attachment_choices:
-  - attachment_item_id: 49241
-    attachment_key: "BWN8LXZP"
+  - attachment_item_id: 73606
+    attachment_key: "JUMLGYQP"
     attachment_title: "Herbert and Herbert_2020_Dune messiah.epub"
     content_type: "application/epub+zip"
-    path: "/Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Herbert and Herbert_2020_Dune messiah.epub"
+    path: "/Users/ubd/Zotero/storage/JUMLGYQP/Herbert and Herbert_2020_Dune messiah.epub"
 override_entry:
   clipping_title: "Herbert and Herbert_2020_Dune messiah (Frank Herbert)"
   resolution:
@@ -1242,16 +897,16 @@ expected_attachment_type: "epub-preferred"
 match_score: 0.92
 match_reason: "title-contained-in-clipping-title"
 attachment_choices:
-  - attachment_item_id: 43906
-    attachment_key: "QW6E2MJL"
+  - attachment_item_id: 73859
+    attachment_key: "96FZIZ5L"
     attachment_title: "Sterren et al._2011_Fundamental chess openings.epub"
     content_type: "application/epub+zip"
-    path: "/Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Sterren et al._2011_Fundamental chess openings.epub"
-  - attachment_item_id: 43908
-    attachment_key: "IJ68KXNQ"
+    path: "/Users/ubd/Zotero/storage/96FZIZ5L/Sterren et al._2011_Fundamental chess openings.epub"
+  - attachment_item_id: 73860
+    attachment_key: "78C9NDN7"
     attachment_title: "Sterren et al._2011_Fundamental chess openings.pdf"
     content_type: "application/pdf"
-    path: "/Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Sterren et al._2011_Fundamental chess openings.pdf"
+    path: "/Users/ubd/Zotero/storage/78C9NDN7/Sterren et al._2011_Fundamental chess openings.pdf"
 override_entry:
   clipping_title: "Sterren et al._2011_Fundamental chess openings (Paul van der Sterren)"
   resolution:
@@ -1265,12 +920,82 @@ Candidates:
 
 - Example: highlight page `None` loc `11774-11776`: The Taimanov, the Paulsen and the Scheveningen are the great main lines in this position. There are also a few smaller variations, among which one is especially notable because it 
 
+### The philosophy of Simondon_ between technology and individuation (Kirkpatrick, Graeme)
+
+```yaml
+clipping_title: "The philosophy of Simondon_ between technology and individuation (Kirkpatrick, Graeme)"
+status: epub-text-not-found
+clipping_count: 1
+kinds: {highlight: 1}
+citation_key: "chabot2013"
+zotero_item_id: 76048
+zotero_key: "FKI3T3XT"
+zotero_title: "The philosophy of Simondon: between technology and individuation"
+attachment_count: 1
+expected_attachment_type: "epub"
+match_score: 1.0
+match_reason: "override-citation-key:chabot2013"
+attachment_choices:
+  - attachment_item_id: 76050
+    attachment_key: "47IP4ZXW"
+    attachment_title: "Ebook"
+    content_type: "application/epub+zip"
+    path: "/Users/ubd/Zotero/storage/47IP4ZXW/Chabot et al. - 2013 - The philosophy of Simondon between technology and individuation.epub"
+override_entry:
+  clipping_title: "The philosophy of Simondon_ between technology and individuation (Kirkpatrick, Graeme)"
+  resolution:
+    citation_key: "chabot2013"
+    attachment_key: "PASTE_SELECTED_ATTACHMENT_KEY"
+    attachment_item_id: null
+```
+
+Candidates:
+- citation_key: `chabot2013`, zotero_item_id: `76048`, zotero_key: `FKI3T3XT`, attachments: `1`, score: `1.0`, title: The philosophy of Simondon: between technology and individuation
+
+- Example: highlight page `12` loc `130-133`: Jacques Garelli dedicated considerable space to Simondon in his book Rhythms and Worlds. In 1992, an English translation of some twenty pages from the introduction to his thesis on
+
 ## PDF Text Not Found
 
 Status: `pdf-text-not-found`
-Clippings: 26
-Unique titles: 5
+Clippings: 38
+Unique titles: 6
 Action: Needs looser PDF text matching/OCR/page-offset handling.
+
+### gilbert-simondon-on-the-mode-of-existence-of-technical-objects
+
+```yaml
+clipping_title: "gilbert-simondon-on-the-mode-of-existence-of-technical-objects"
+status: pdf-text-not-found
+clipping_count: 12
+kinds: {highlight: 12}
+citation_key: "simondon2017a"
+zotero_item_id: 76043
+zotero_key: "A3A9WMNE"
+zotero_title: "On the mode of existence of technical objects"
+attachment_count: 1
+expected_attachment_type: "pdf"
+match_score: 1.0
+match_reason: "override-citation-key:simondon2017a"
+attachment_choices:
+  - attachment_item_id: 76127
+    attachment_key: "R7JSW39C"
+    attachment_title: "PDF"
+    content_type: "application/pdf"
+    path: "/Users/ubd/Zotero/storage/R7JSW39C/gilbert-simondon-on-the-mode-of-existence-of-technical-objects.pdf"
+override_entry:
+  clipping_title: "gilbert-simondon-on-the-mode-of-existence-of-technical-objects"
+  resolution:
+    citation_key: "simondon2017a"
+    attachment_key: "PASTE_SELECTED_ATTACHMENT_KEY"
+    attachment_item_id: null
+```
+
+Candidates:
+- citation_key: `simondon2017a`, zotero_item_id: `76043`, zotero_key: `A3A9WMNE`, attachments: `1`, score: `1.0`, title: On the mode of existence of technical objects
+
+- Example: highlight page `30-30` loc `None`: by granting the technical object the only status currently valued besides that of the aesthetic object, namely that of the sacred object. This, then, gives rise to an intemperate t
+- Example: highlight page `30-30` loc `None`: by granting the technical object the only status currently valued besides that of the aesthetic object, namely that of the sacred object. This, then, gives rise to an intemperate t
+- Example: highlight page `30-30` loc `None`: by granting the technical object the only status currently valued besides that of the aesthetic object, namely that of the sacred object. This, then, gives rise to an intemperate t
 
 ### (Undergraduate texts in mathematics) Sheldon Axler - Linear Algebra Done Right-Springer (1997)
 
@@ -1288,11 +1013,11 @@ expected_attachment_type: "pdf"
 match_score: 0.92
 match_reason: "title-contained-in-clipping-title"
 attachment_choices:
-  - attachment_item_id: 49385
-    attachment_key: "BY36XN8X"
+  - attachment_item_id: 73373
+    attachment_key: "LP7YL6GG"
     attachment_title: "Axler_2024_Linear Algebra Done Right.pdf"
     content_type: "application/pdf"
-    path: "/Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Axler_2024_Linear Algebra Done Right.pdf"
+    path: "/Users/ubd/Zotero/storage/LP7YL6GG/Axler_2024_Linear Algebra Done Right.pdf"
 override_entry:
   clipping_title: "(Undergraduate texts in mathematics) Sheldon Axler - Linear Algebra Done Right-Springer (1997)"
   resolution:
@@ -1324,11 +1049,11 @@ expected_attachment_type: "pdf"
 match_score: 1.0
 match_reason: "citationKey"
 attachment_choices:
-  - attachment_item_id: 40764
-    attachment_key: "VXSNTSKV"
+  - attachment_item_id: 73424
+    attachment_key: "R7QLWI74"
     attachment_title: "Buchanan_2008_Deleuze and Guattari's Anti-Oedipus a reader's guide.pdf"
     content_type: "application/pdf"
-    path: "/Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Buchanan_2008_Deleuze and Guattari's Anti-Oedipus a reader's guide.pdf"
+    path: "/Users/ubd/Zotero/storage/R7QLWI74/Buchanan_2008_Deleuze and Guattari's Anti-Oedipus a reader's guide.pdf"
 override_entry:
   clipping_title: "Buchanan_2008_Deleuze and Guattari's Anti-Oedipus a reader's guide"
   resolution:
@@ -1360,11 +1085,11 @@ expected_attachment_type: "pdf"
 match_score: 0.98
 match_reason: "title-exact"
 attachment_choices:
-  - attachment_item_id: 41144
-    attachment_key: "5WIFUMAC"
+  - attachment_item_id: 73724
+    attachment_key: "D4UFFYUP"
     attachment_title: "Melville_2006_Bartleby the scrivener.pdf"
     content_type: "application/pdf"
-    path: "/Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Melville_2006_Bartleby the scrivener.pdf"
+    path: "/Users/ubd/Zotero/storage/D4UFFYUP/Melville_2006_Bartleby the scrivener.pdf"
 override_entry:
   clipping_title: "Bartleby, the Scrivener (Melville, Herman)"
   resolution:
@@ -1396,11 +1121,11 @@ expected_attachment_type: "pdf"
 match_score: 0.92
 match_reason: "title-contained-in-clipping-title"
 attachment_choices:
-  - attachment_item_id: 47609
-    attachment_key: "WZCI29B3"
+  - attachment_item_id: 73360
+    attachment_key: "SXDEZWXF"
     attachment_title: "Tiamat - İhsan Oktay Anar.pdf"
     content_type: "application/pdf"
-    path: "/Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Tiamat - İhsan Oktay Anar.pdf"
+    path: "/Users/ubd/Zotero/storage/SXDEZWXF/Tiamat - İhsan Oktay Anar.pdf"
 override_entry:
   clipping_title: "Tiamat - İhsan Oktay Anar-cdeKey_8F425D6B854B4614AD13E11A3106C4D6"
   resolution:
@@ -1430,11 +1155,11 @@ expected_attachment_type: "pdf"
 match_score: 1.0
 match_reason: "override-citation-key:burroughs1992"
 attachment_choices:
-  - attachment_item_id: 39118
-    attachment_key: "TN5ANVDD"
+  - attachment_item_id: 73433
+    attachment_key: "J6SWSFK3"
     attachment_title: "Burroughs_1992_.pdf"
     content_type: "application/pdf"
-    path: "/Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Burroughs_1992_.pdf"
+    path: "/Users/ubd/Zotero/storage/J6SWSFK3/Burroughs_1992_.pdf"
 override_entry:
   clipping_title: "WilliamS.Burroughs-Nakedlunch-GrovePress(2001) (Utku)"
   resolution:
@@ -1451,8 +1176,8 @@ Candidates:
 ## PDF Rectangles Not Found
 
 Status: `pdf-rects-not-found`
-Clippings: 157
-Unique titles: 4
+Clippings: 162
+Unique titles: 5
 Action: Needs improved PDF rectangle recovery after text/page match.
 
 ### Buchanan_2008_Deleuze and Guattari's Anti-Oedipus a reader's guide
@@ -1471,11 +1196,11 @@ expected_attachment_type: "pdf"
 match_score: 1.0
 match_reason: "citationKey"
 attachment_choices:
-  - attachment_item_id: 40764
-    attachment_key: "VXSNTSKV"
+  - attachment_item_id: 73424
+    attachment_key: "R7QLWI74"
     attachment_title: "Buchanan_2008_Deleuze and Guattari's Anti-Oedipus a reader's guide.pdf"
     content_type: "application/pdf"
-    path: "/Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Buchanan_2008_Deleuze and Guattari's Anti-Oedipus a reader's guide.pdf"
+    path: "/Users/ubd/Zotero/storage/R7QLWI74/Buchanan_2008_Deleuze and Guattari's Anti-Oedipus a reader's guide.pdf"
 override_entry:
   clipping_title: "Buchanan_2008_Deleuze and Guattari's Anti-Oedipus a reader's guide"
   resolution:
@@ -1507,11 +1232,11 @@ expected_attachment_type: "pdf"
 match_score: 0.92
 match_reason: "title-contained-in-clipping-title"
 attachment_choices:
-  - attachment_item_id: 47609
-    attachment_key: "WZCI29B3"
+  - attachment_item_id: 73360
+    attachment_key: "SXDEZWXF"
     attachment_title: "Tiamat - İhsan Oktay Anar.pdf"
     content_type: "application/pdf"
-    path: "/Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Tiamat - İhsan Oktay Anar.pdf"
+    path: "/Users/ubd/Zotero/storage/SXDEZWXF/Tiamat - İhsan Oktay Anar.pdf"
 override_entry:
   clipping_title: "Tiamat - İhsan Oktay Anar-cdeKey_8F425D6B854B4614AD13E11A3106C4D6"
   resolution:
@@ -1543,11 +1268,11 @@ expected_attachment_type: "pdf"
 match_score: 1.0
 match_reason: "override-citation-key:burroughs1992"
 attachment_choices:
-  - attachment_item_id: 39118
-    attachment_key: "TN5ANVDD"
+  - attachment_item_id: 73433
+    attachment_key: "J6SWSFK3"
     attachment_title: "Burroughs_1992_.pdf"
     content_type: "application/pdf"
-    path: "/Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Burroughs_1992_.pdf"
+    path: "/Users/ubd/Zotero/storage/J6SWSFK3/Burroughs_1992_.pdf"
 override_entry:
   clipping_title: "WilliamS.Burroughs-Nakedlunch-GrovePress(2001) (Utku)"
   resolution:
@@ -1562,6 +1287,42 @@ Candidates:
 - Example: highlight page `8` loc `56-57`: The addict in the street who must have junk to live is the one irreplaceable factor in the junk equation. When there are no more addicts to buy junk there will be no junk trafic. A
 - Example: highlight page `49` loc `539-541`: A group of P.R.'s -Partially Reconditioned -- have surrounded some homosexual tourists with horrible knowing smiles showing the Nordic skull beneath in double exposure. "What do yo
 - Example: highlight page `67` loc `760-762`: The Guard is a sharp dresser, since he has nothing to do and saves all his pay to buy fine clothes and changes three times a day in front of an enormous magnifying mirror. He has a
+
+### gilbert-simondon-on-the-mode-of-existence-of-technical-objects
+
+```yaml
+clipping_title: "gilbert-simondon-on-the-mode-of-existence-of-technical-objects"
+status: pdf-rects-not-found
+clipping_count: 5
+kinds: {highlight: 5}
+citation_key: "simondon2017a"
+zotero_item_id: 76043
+zotero_key: "A3A9WMNE"
+zotero_title: "On the mode of existence of technical objects"
+attachment_count: 1
+expected_attachment_type: "pdf"
+match_score: 1.0
+match_reason: "override-citation-key:simondon2017a"
+attachment_choices:
+  - attachment_item_id: 76127
+    attachment_key: "R7JSW39C"
+    attachment_title: "PDF"
+    content_type: "application/pdf"
+    path: "/Users/ubd/Zotero/storage/R7JSW39C/gilbert-simondon-on-the-mode-of-existence-of-technical-objects.pdf"
+override_entry:
+  clipping_title: "gilbert-simondon-on-the-mode-of-existence-of-technical-objects"
+  resolution:
+    citation_key: "simondon2017a"
+    attachment_key: "PASTE_SELECTED_ATTACHMENT_KEY"
+    attachment_item_id: null
+```
+
+Candidates:
+- citation_key: `simondon2017a`, zotero_item_id: `76043`, zotero_key: `A3A9WMNE`, attachments: `1`, score: `1.0`, title: On the mode of existence of technical objects
+
+- Example: highlight page `31-31` loc `None`: Automatism, and its utilization in the form of industrial organization, which one calls autom ation, possesses an economic or social signification more than a technical one
+- Example: highlight page `31-31` loc `None`: Automatism, and its utilization in the form of industrial organization, which one calls autom ation, possesses an economic or social signification more than a technical one. The tr
+- Example: highlight page `31-31` loc `None`: Automatism, and its utilization in the form of industrial organization, which one calls autom ation, possesses an economic or social signification more than a technical one. The tr
 
 ### Bartleby, the Scrivener (Melville, Herman)
 
@@ -1579,11 +1340,11 @@ expected_attachment_type: "pdf"
 match_score: 0.98
 match_reason: "title-exact"
 attachment_choices:
-  - attachment_item_id: 41144
-    attachment_key: "5WIFUMAC"
+  - attachment_item_id: 73724
+    attachment_key: "D4UFFYUP"
     attachment_title: "Melville_2006_Bartleby the scrivener.pdf"
     content_type: "application/pdf"
-    path: "/Users/ubd/Library/Mobile Documents/com~apple~CloudDocs/03_Academia/ZoteroFiles/Melville_2006_Bartleby the scrivener.pdf"
+    path: "/Users/ubd/Zotero/storage/D4UFFYUP/Melville_2006_Bartleby the scrivener.pdf"
 override_entry:
   clipping_title: "Bartleby, the Scrivener (Melville, Herman)"
   resolution:

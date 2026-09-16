@@ -2,6 +2,42 @@
   "format": "kindle-zotero-importer.match-overrides.v1",
   "overrides": [
     {
+      "clipping_title": "(Springer Series in Statistics) Trevor Hastie, Robert Tibshirani, Jerome Friedman - The elements of statistical learning Data mining, inference & predi",
+      "resolution": {
+        "ignore": true
+      },
+      "review": {
+        "status": "ambiguous",
+        "clipping_count": 2
+      },
+      "created_at": "2026-09-16T12:39:19.713Z",
+      "updated_at": "2026-09-16T12:39:19.713Z"
+    },
+    {
+      "clipping_title": "(Grundstudium Mathematik) Herbert Amann, Joachim Escher - Analysis 1-Birkhauser Basel (2006)",
+      "resolution": {
+        "ignore": true
+      },
+      "review": {
+        "status": "ambiguous",
+        "clipping_count": 3
+      },
+      "created_at": "2026-09-16T12:39:05.426Z",
+      "updated_at": "2026-09-16T12:39:08.496Z"
+    },
+    {
+      "clipping_title": "The Communist Hypothesis (Alain Badiou)",
+      "resolution": {
+        "citation_key": "badiou2015"
+      },
+      "review": {
+        "status": "epub-text-not-found",
+        "clipping_count": 1
+      },
+      "created_at": "2026-09-16T12:20:45.512Z",
+      "updated_at": "2026-09-16T12:20:45.512Z"
+    },
+    {
       "clipping_title": "WilliamS.Burroughs-Nakedlunch-GrovePress(2001) (Utku)",
       "resolution": {
         "citation_key": "burroughs1992"
@@ -9,13 +45,26 @@
       "review": {
         "status": "matched",
         "clipping_count": 74
-      }
+      },
+      "created_at": "2026-09-16T12:19:40.753Z",
+      "updated_at": "2026-09-16T12:19:40.753Z"
+    },
+    {
+      "clipping_title": "On the Mode of Existence of Technical Objects (Univocal)",
+      "resolution": {
+        "ignore": true
+      },
+      "review": {
+        "status": "ambiguous",
+        "clipping_count": 16
+      },
+      "created_at": "2026-09-16T12:19:16.038Z",
+      "updated_at": "2026-09-16T12:19:16.038Z"
     },
     {
       "clipping_title": "(Kapitalismus und Schizophrenie 2) Guattari, Deleuze - Tausend Plateaus, Mille Plateaux-Les Editions de Minuit (1980)",
       "resolution": {
-        "ignore": true,
-        "citation_key": ""
+        "ignore": true
       },
       "review": {
         "status": "unmatched",
@@ -25,8 +74,7 @@
     {
       "clipping_title": "[Penguin Classics] Marcus Aurelius, Martin Hammond, Diskin Clay - Meditations (2006, Penguin Classics) - libgen.li",
       "resolution": {
-        "ignore": true,
-        "citation_key": ""
+        "ignore": true
       },
       "review": {
         "status": "unmatched",
@@ -36,8 +84,7 @@
     {
       "clipping_title": "APuZ_Postdemokratie.2011",
       "resolution": {
-        "ignore": true,
-        "citation_key": ""
+        "ignore": true
       },
       "review": {
         "status": "unmatched",
@@ -47,8 +94,7 @@
     {
       "clipping_title": "Arendt_2017_",
       "resolution": {
-        "ignore": true,
-        "citation_key": ""
+        "ignore": true
       },
       "review": {
         "status": "unmatched",
@@ -58,8 +104,7 @@
     {
       "clipping_title": "Chantal Mouffe - Hegemonie und radikale Demokratie.-Passagen Verlag Ges.M.B.H (2000)",
       "resolution": {
-        "ignore": true,
-        "citation_key": ""
+        "ignore": true
       },
       "review": {
         "status": "unmatched",
@@ -69,8 +114,7 @@
     {
       "clipping_title": "Deleuze and Guattaris",
       "resolution": {
-        "ignore": true,
-        "citation_key": ""
+        "ignore": true
       },
       "review": {
         "status": "unmatched",
@@ -80,8 +124,7 @@
     {
       "clipping_title": "Deleuze, Bartleby; or, the Formula",
       "resolution": {
-        "ignore": true,
-        "citation_key": ""
+        "ignore": true
       },
       "review": {
         "status": "unmatched",
@@ -91,8 +134,7 @@
     {
       "clipping_title": "Deleuze, Guattari- A Thousand Plateaus - Bobo",
       "resolution": {
-        "ignore": true,
-        "citation_key": ""
+        "ignore": true
       },
       "review": {
         "status": "unmatched",
@@ -102,8 +144,7 @@
     {
       "clipping_title": "Dewey_2008_",
       "resolution": {
-        "ignore": true,
-        "citation_key": ""
+        "ignore": true
       },
       "review": {
         "status": "unmatched",
@@ -113,8 +154,7 @@
     {
       "clipping_title": "DRdZ 01 - Die Suche nach dem Auge der Welt (Robert Jordan)",
       "resolution": {
-        "ignore": true,
-        "citation_key": ""
+        "ignore": true
       },
       "review": {
         "status": "unmatched",
@@ -124,8 +164,7 @@
     {
       "clipping_title": "Ernesto Laclau - On Populist Reason-Verso (2005)",
       "resolution": {
-        "ignore": true,
-        "citation_key": ""
+        "ignore": true
       },
       "review": {
         "status": "unmatched",
@@ -135,8 +174,7 @@
     {
       "clipping_title": "Exhalation (Ted Chiang)",
       "resolution": {
-        "ignore": true,
-        "citation_key": ""
+        "ignore": true
       },
       "review": {
         "status": "unmatched",
@@ -146,8 +184,7 @@
     {
       "clipping_title": "Fire & Blood (A Song of Ice and Fire) (George R. R. Martin)",
       "resolution": {
-        "ignore": true,
-        "citation_key": ""
+        "ignore": true
       },
       "review": {
         "status": "unmatched",
@@ -157,7 +194,6 @@
     {
       "clipping_title": "Galloway_2004_Protocol",
       "resolution": {
-        "ignore": true,
         "citation_key": "galloway_2004"
       },
       "review": {
@@ -166,10 +202,19 @@
       }
     },
     {
+      "clipping_title": "gilbert-simondon-on-the-mode-of-existence-of-technical-objects",
+      "resolution": {
+        "citation_key": "simondon2017a"
+      },
+      "review": {
+        "status": "matched",
+        "clipping_count": 28
+      }
+    },
+    {
       "clipping_title": "Gregs Tagebuch 13 - Eiskalt erwischt by Kinney Jeff, Schmidt Dietmar (z-lib.org)",
       "resolution": {
-        "ignore": true,
-        "citation_key": ""
+        "ignore": true
       },
       "review": {
         "status": "unmatched",
@@ -179,8 +224,7 @@
     {
       "clipping_title": "Hardt_Negri_2017_",
       "resolution": {
-        "ignore": true,
-        "citation_key": ""
+        "ignore": true
       },
       "review": {
         "status": "unmatched",
@@ -190,8 +234,7 @@
     {
       "clipping_title": "Howaldt_Schwarz_2016_SI-DRIVE",
       "resolution": {
-        "ignore": true,
-        "citation_key": ""
+        "ignore": true
       },
       "review": {
         "status": "unmatched",
@@ -201,8 +244,7 @@
     {
       "clipping_title": "Latzer Just (2020)",
       "resolution": {
-        "ignore": true,
-        "citation_key": ""
+        "ignore": true
       },
       "review": {
         "status": "unmatched",
@@ -212,8 +254,7 @@
     {
       "clipping_title": "Lem, Stanislaw - Solaris (Stanisław Lem)",
       "resolution": {
-        "ignore": true,
-        "citation_key": ""
+        "ignore": true
       },
       "review": {
         "status": "unmatched",
@@ -223,8 +264,7 @@
     {
       "clipping_title": "luhmann1981",
       "resolution": {
-        "ignore": true,
-        "citation_key": ""
+        "ignore": true
       },
       "review": {
         "status": "unmatched",
@@ -234,8 +274,7 @@
     {
       "clipping_title": "manifestly_haraway_----_a_cyborg_manifesto_science_technology_and_socialist-feminism_in_the_...",
       "resolution": {
-        "ignore": true,
-        "citation_key": ""
+        "ignore": true
       },
       "review": {
         "status": "unmatched",
@@ -245,8 +284,7 @@
     {
       "clipping_title": "Marcus Aurelius (Emperor of Rome), Martin Hammond, Diskin Clay - Meditations (2006, Penguin Books) - libgen.li",
       "resolution": {
-        "ignore": true,
-        "citation_key": ""
+        "ignore": true
       },
       "review": {
         "status": "unmatched",
@@ -256,8 +294,7 @@
     {
       "clipping_title": "Martyr! -- Akbar, Kaveh -- null, null, 2024 -- RANDOM HOUSE US -- 9780593802359 -- 930ede856e2a2efb28505e3c4e99e222 -- Anna’s Archive (Kaveh Akbar)",
       "resolution": {
-        "ignore": true,
-        "citation_key": ""
+        "ignore": true
       },
       "review": {
         "status": "unmatched",
@@ -267,8 +304,7 @@
     {
       "clipping_title": "mew_band03",
       "resolution": {
-        "ignore": true,
-        "citation_key": ""
+        "ignore": true
       },
       "review": {
         "status": "unmatched",
@@ -278,8 +314,7 @@
     {
       "clipping_title": "MiloradPaviç_-_ hazar_sözlügü",
       "resolution": {
-        "ignore": true,
-        "citation_key": ""
+        "ignore": true
       },
       "review": {
         "status": "unmatched",
@@ -289,8 +324,7 @@
     {
       "clipping_title": "On Populist Reason (Laclau, Ernesto)",
       "resolution": {
-        "ignore": true,
-        "citation_key": ""
+        "ignore": true
       },
       "review": {
         "status": "unmatched",
@@ -300,8 +334,7 @@
     {
       "clipping_title": "paul-lafargue-the-right-to-be-lazy (Paul Lafargue)",
       "resolution": {
-        "ignore": true,
-        "citation_key": ""
+        "ignore": true
       },
       "review": {
         "status": "unmatched",
@@ -311,8 +344,7 @@
     {
       "clipping_title": "Quantitative Marxism - Paul Dunne Ed_",
       "resolution": {
-        "ignore": true,
-        "citation_key": ""
+        "ignore": true
       },
       "review": {
         "status": "unmatched",
@@ -322,8 +354,7 @@
     {
       "clipping_title": "radikale demokratie comtesse, nonhoff etc",
       "resolution": {
-        "ignore": true,
-        "citation_key": ""
+        "ignore": true
       },
       "review": {
         "status": "unmatched",
@@ -333,8 +364,7 @@
     {
       "clipping_title": "Rupert präsentiert: Ein echt wildes Abenteuer (Ruperts Tagebuch) (German Edition) (Kinney, Jeff)",
       "resolution": {
-        "ignore": true,
-        "citation_key": ""
+        "ignore": true
       },
       "review": {
         "status": "unmatched",
@@ -344,8 +374,7 @@
     {
       "clipping_title": "The City & the City - China Mieville",
       "resolution": {
-        "ignore": true,
-        "citation_key": ""
+        "ignore": true
       },
       "review": {
         "status": "unmatched",
@@ -353,10 +382,19 @@
       }
     },
     {
+      "clipping_title": "The philosophy of Simondon_ between technology and individuation (Kirkpatrick, Graeme)",
+      "resolution": {
+        "citation_key": "chabot2013"
+      },
+      "review": {
+        "status": "epub-text-not-found",
+        "clipping_count": 1
+      }
+    },
+    {
       "clipping_title": "The Republic (Plato)",
       "resolution": {
-        "ignore": true,
-        "citation_key": ""
+        "ignore": true
       },
       "review": {
         "status": "unmatched",
@@ -366,8 +404,7 @@
     {
       "clipping_title": "The Satanic Verses_ A Novel (Salman Rushdie)",
       "resolution": {
-        "ignore": true,
-        "citation_key": ""
+        "ignore": true
       },
       "review": {
         "status": "unmatched",
@@ -377,8 +414,7 @@
     {
       "clipping_title": "The Way of Kings (Sanderson, Brandon)",
       "resolution": {
-        "ignore": true,
-        "citation_key": ""
+        "ignore": true
       },
       "review": {
         "status": "unmatched",
@@ -388,8 +424,7 @@
     {
       "clipping_title": "Your Clippings",
       "resolution": {
-        "ignore": true,
-        "citation_key": ""
+        "ignore": true
       },
       "review": {
         "status": "unmatched",
@@ -399,8 +434,7 @@
     {
       "clipping_title": "Your P2K Articles (2024-12-17) (P2K)",
       "resolution": {
-        "ignore": true,
-        "citation_key": ""
+        "ignore": true
       },
       "review": {
         "status": "unmatched",
@@ -410,8 +444,7 @@
     {
       "clipping_title": "Your P2K Articles (2024-12-31) (P2K)",
       "resolution": {
-        "ignore": true,
-        "citation_key": ""
+        "ignore": true
       },
       "review": {
         "status": "unmatched",
