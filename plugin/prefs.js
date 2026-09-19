@@ -2,3 +2,5 @@ pref("extensions.kindleZoteroImporter.projectDir", "/Users/ubd/Library/Mobile Do
 pref("extensions.kindleZoteroImporter.pythonPath", "/opt/homebrew/bin/python3");
 pref("extensions.kindleZoteroImporter.zoteroDbPath", "/Users/ubd/Zotero/zotero.sqlite");
 pref("extensions.kindleZoteroImporter.zoteroStorageRoot", "/Users/ubd/Zotero/storage");
+pref("extensions.kindleZoteroImporter.shareAnonymized", true);
+pref("extensions.kindleZoteroImporter.askedAnonymizedShare", false);
